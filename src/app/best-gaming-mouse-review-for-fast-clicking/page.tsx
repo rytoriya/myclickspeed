@@ -89,8 +89,8 @@ export default function BestGamingMousePage() {
 
       <div className="content-section">
         <h2>What Makes a Mouse Good for Fast Clicking?</h2>
-        <p>Drag clicking performs best on mice with low debounce, textured surfaces, and firm switches. The switch type is the most important factor — optical switches like Logitech&apos;s LIGHTFORCE register at the speed of light with no physical contact, while durable mechanical switches from Omron or Huano handle millions of clicks before wearing out.</p>
-        <p>Weight also matters — lighter mice (under 70g) reduce fatigue during long gaming sessions and allow faster micro-adjustments. A mouse with 1000Hz polling rate ensures every click registers without delay.</p>
+        <p>Drag clicking performs best on mice with low debounce, textured surfaces, and firm switches. The switch type is the most important factor - optical switches like Logitech&apos;s LIGHTFORCE register at the speed of light with no physical contact, while durable mechanical switches from Omron or Huano handle millions of clicks before wearing out.</p>
+        <p>Weight also matters - lighter mice (under 70g) reduce fatigue during long gaming sessions and allow faster micro-adjustments. A mouse with 1000Hz polling rate ensures every click registers without delay.</p>
       </div>
 
       <div className="content-section">

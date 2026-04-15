@@ -19,7 +19,7 @@ export default function MinecraftColorCodesPage() {
       <MinecraftColorWidget />
       <div className="content-section">
         <h2>How to Use Minecraft Color Codes</h2>
-        <p>In Minecraft Java Edition, use the § (section) symbol followed by the color code. For example, §c gives red text. In most server plugins you can use &amp; instead of § — for example &amp;c for red. In Bedrock Edition, use the § symbol directly in signs and books.</p>
+        <p>In Minecraft Java Edition, use the § (section) symbol followed by the color code. For example, §c gives red text. In most server plugins you can use &amp; instead of § - for example &amp;c for red. In Bedrock Edition, use the § symbol directly in signs and books.</p>
         <p>Formatting codes work the same way: §l for bold, §o for italic, §n for underline, §m for strikethrough, and §r to reset all formatting back to default.</p>
       </div>
       <RelatedTools currentHref="/minecraft-color-codes" />

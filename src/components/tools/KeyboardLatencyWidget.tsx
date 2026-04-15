@@ -44,9 +44,9 @@ export default function KeyboardLatencyWidget() {
   return (
     <div className="tool-card">
       <div className="stat-grid" style={{ marginBottom: 20, marginTop: 0 }}>
-        <div className="stat-card"><div className="stat-label">Last</div><div className="stat-value" style={{ fontSize: 22, color: '#1D9E75' }}>{last > 0 ? `${last}ms` : '—'}</div></div>
-        <div className="stat-card"><div className="stat-label">Average</div><div className="stat-value" style={{ fontSize: 22 }}>{avg > 0 ? `${avg}ms` : '—'}</div></div>
-        <div className="stat-card"><div className="stat-label">Best</div><div className="stat-value" style={{ fontSize: 22, color: '#378ADD' }}>{best > 0 ? `${best}ms` : '—'}</div></div>
+        <div className="stat-card"><div className="stat-label">Last</div><div className="stat-value" style={{ fontSize: 22, color: '#1D9E75' }}>{last > 0 ? `${last}ms` : '-'}</div></div>
+        <div className="stat-card"><div className="stat-label">Average</div><div className="stat-value" style={{ fontSize: 22 }}>{avg > 0 ? `${avg}ms` : '-'}</div></div>
+        <div className="stat-card"><div className="stat-label">Best</div><div className="stat-value" style={{ fontSize: 22, color: '#378ADD' }}>{best > 0 ? `${best}ms` : '-'}</div></div>
       </div>
 
       <div style={{ background: bgColor, borderRadius: 12, padding: '52px 20px', textAlign: 'center', marginBottom: 16, transition: 'background 0.1s', cursor: 'default', border: `2px dashed ${state === 'ready' ? '#085041' : '#E2E8F0'}` }}>

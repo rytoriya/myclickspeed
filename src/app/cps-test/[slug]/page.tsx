@@ -15,7 +15,7 @@ function getConfig(slug: string) {
       seconds: num,
       type: 'standard' as const,
       title: `${num} Second CPS Test – Click Speed Test in ${num}s`,
-      description: `Test how many times you can click in ${num} second${num > 1 ? 's' : ''}. Free online CPS test — measure your clicks per second and improve your gaming performance.`,
+      description: `Test how many times you can click in ${num} second${num > 1 ? 's' : ''}. Free online CPS test - measure your clicks per second and improve your gaming performance.`,
       h1: `${num} Second Click Speed Test`,
       intro: `How fast can you click in ${num} second${num > 1 ? 's' : ''}? Click the button below as fast as you can and find out your CPS score.`,
     }
@@ -123,7 +123,7 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
           {config.type === 'jitter' && (
             <p>
               Jitter clicking involves tensing your arm and wrist muscles to create rapid involuntary vibrations. This technique can push CPS above 12 but
-              puts significant strain on the wrist — take breaks and don&apos;t overdo it.
+              puts significant strain on the wrist - take breaks and don&apos;t overdo it.
             </p>
           )}
           {config.type === 'butterfly' && (
@@ -144,7 +144,7 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
         <div className="content-section">
           <h2>How to Improve Your CPS</h2>
           <p>
-            Use a gaming mouse with a low actuation force — this reduces the effort per click and allows faster clicking.
+            Use a gaming mouse with a low actuation force - this reduces the effort per click and allows faster clicking.
             Practice daily with short sessions rather than long exhausting ones. Try different techniques like jitter clicking,
             butterfly clicking, or drag clicking to find what works best for you.
           </p>

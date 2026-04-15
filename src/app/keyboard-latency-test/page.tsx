@@ -19,7 +19,7 @@ export default function KeyboardLatencyPage() {
       <KeyboardLatencyWidget />
       <div className="content-section">
         <h2>What is Keyboard Latency?</h2>
-        <p>Keyboard latency is the time between a physical key press and the computer registering the input. For gaming keyboards, this is typically 1–5ms — essentially imperceptible. USB keyboards typically have 1ms latency at 1000Hz polling rate. Wireless keyboards can add 1–3ms of additional latency, though modern wireless technology has made this gap negligible for most users.</p>
+        <p>Keyboard latency is the time between a physical key press and the computer registering the input. For gaming keyboards, this is typically 1–5ms - essentially imperceptible. USB keyboards typically have 1ms latency at 1000Hz polling rate. Wireless keyboards can add 1–3ms of additional latency, though modern wireless technology has made this gap negligible for most users.</p>
       </div>
       <RelatedTools currentHref="/keyboard-latency-test" />
     </div>

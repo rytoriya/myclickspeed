@@ -19,7 +19,7 @@ export default function MouseDriftTestPage() {
       <MouseDriftWidget />
       <div className="content-section">
         <h2>What is Mouse Drift?</h2>
-        <p>Mouse drift happens when your cursor moves slightly even when you are not touching the mouse. It is usually caused by a dirty sensor, vibrations on the desk, or a faulty mouse. Angle snapping is a firmware feature that artificially straightens your mouse movements — it can feel like drift in some games.</p>
+        <p>Mouse drift happens when your cursor moves slightly even when you are not touching the mouse. It is usually caused by a dirty sensor, vibrations on the desk, or a faulty mouse. Angle snapping is a firmware feature that artificially straightens your mouse movements - it can feel like drift in some games.</p>
         <p>To fix drift: clean the sensor lens with a cotton swab, use a flat hard mousepad, and disable angle snapping in your mouse software if available.</p>
       </div>
       <RelatedTools currentHref="/mouse-drift-test" />

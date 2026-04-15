@@ -19,7 +19,7 @@ export default function ApmTestPage() {
       <ApmWidget />
       <div className="content-section">
         <h2>What is a Good APM?</h2>
-        <p>In RTS games like StarCraft, professional players average 300–500 APM, with peaks above 600. Casual gamers typically average 50–150 APM. In MOBAs like League of Legends, 200+ APM is considered competitive. For FPS games APM is less relevant — aim and reaction time matter more.</p>
+        <p>In RTS games like StarCraft, professional players average 300–500 APM, with peaks above 600. Casual gamers typically average 50–150 APM. In MOBAs like League of Legends, 200+ APM is considered competitive. For FPS games APM is less relevant - aim and reaction time matter more.</p>
       </div>
       <RelatedTools currentHref="/apm-test" />
     </div>

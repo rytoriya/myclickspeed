@@ -19,7 +19,7 @@ export default function AimBoosterPage() {
       <AimTrainerWidget />
       <div className="content-section">
         <h2>How Aim Training Works</h2>
-        <p>Aim training builds the neural pathways responsible for hand-eye coordination. The more you practice clicking targets, the more automatic and precise your movements become — a process called muscle memory. Unlike raw reaction speed which is mostly fixed, aiming precision can be significantly improved with consistent training.</p>
+        <p>Aim training builds the neural pathways responsible for hand-eye coordination. The more you practice clicking targets, the more automatic and precise your movements become - a process called muscle memory. Unlike raw reaction speed which is mostly fixed, aiming precision can be significantly improved with consistent training.</p>
         <p>Focus on maintaining 80%+ accuracy rather than chasing speed. Speed naturally follows as your accuracy improves. A 10-minute daily warm-up session before competitive games is more effective than occasional hour-long training sessions.</p>
       </div>
       <div className="content-section">

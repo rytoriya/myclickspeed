@@ -4,7 +4,7 @@ import RelatedTools from '@/components/tools/RelatedTools'
 
 export const metadata: Metadata = {
   title: 'Mouse Tester – Test All Mouse Buttons & Scroll Wheel Online',
-  description: 'Test every button on your mouse online for free. Detect double-click issues, verify side buttons, and check scroll wheel — no download needed.',
+  description: 'Test every button on your mouse online for free. Detect double-click issues, verify side buttons, and check scroll wheel - no download needed.',
   alternates: { canonical: 'https://myclickspeed.com/mouse-tester' },
 }
 
@@ -14,7 +14,7 @@ export default function MouseTesterPage() {
       <nav className="breadcrumb"><a href="/">Home</a> › <span>Mouse Tester</span></nav>
       <div style={{ padding: '24px 0 8px' }}>
         <h1 className="section-title">Mouse Tester</h1>
-        <p className="section-subtitle">Click any mouse button to test it. Side buttons, scroll wheel — everything is detected in real time.</p>
+        <p className="section-subtitle">Click any mouse button to test it. Side buttons, scroll wheel - everything is detected in real time.</p>
       </div>
       <MouseTesterWidget />
       <div className="content-section">

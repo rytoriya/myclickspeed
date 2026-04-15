@@ -29,10 +29,10 @@ export default function PollingRateClient() {
     <div style={{ textAlign: 'center' }}>
       <div style={{ background: '#F4F6F8', borderRadius: 12, padding: '40px 20px', marginBottom: 20 }}>
         <div style={{ fontSize: 80, fontWeight: 800, color: running && hz > 0 ? '#1D9E75' : '#aaa', lineHeight: 1 }}>
-          {running && hz > 0 ? rounded : '—'}
+          {running && hz > 0 ? rounded : '-'}
         </div>
         <div style={{ fontSize: 18, color: '#555', marginTop: 8 }}>Hz polling rate</div>
-        {running && hz > 0 && <div style={{ fontSize: 13, color: '#888', marginTop: 6 }}>Raw: {hz} events/sec — move mouse continuously</div>}
+        {running && hz > 0 && <div style={{ fontSize: 13, color: '#888', marginTop: 6 }}>Raw: {hz} events/sec - move mouse continuously</div>}
         {!running && <div style={{ fontSize: 14, color: '#888', marginTop: 8 }}>Click start then move your mouse continuously</div>}
       </div>
       <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>

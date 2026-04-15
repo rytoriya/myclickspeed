@@ -19,7 +19,7 @@ export default function MouseScrollTestPage() {
       <MouseScrollWidget />
       <div className="content-section">
         <h2>Common Scroll Wheel Issues</h2>
-        <p>If your scroll wheel skips or jumps in the wrong direction, it likely has a dirty or worn encoder inside. Compressed air can sometimes fix this. Erratic scrolling that goes up when you scroll down is called scroll wheel reversal — a common hardware fault in older mice.</p>
+        <p>If your scroll wheel skips or jumps in the wrong direction, it likely has a dirty or worn encoder inside. Compressed air can sometimes fix this. Erratic scrolling that goes up when you scroll down is called scroll wheel reversal - a common hardware fault in older mice.</p>
       </div>
       <RelatedTools currentHref="/mouse-scroll-test" />
     </div>

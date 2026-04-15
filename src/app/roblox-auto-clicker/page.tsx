@@ -49,7 +49,7 @@ export default function RobloxAutoClickerPage() {
 
       <div className="content-section">
         <h2>Also Try Our Free CPS Test</h2>
-        <p>Before reaching for an auto clicker, test how fast you can actually click manually. Many Roblox games only register up to 14 CPS — if you can reach that naturally you may not need an auto clicker at all.</p>
+        <p>Before reaching for an auto clicker, test how fast you can actually click manually. Many Roblox games only register up to 14 CPS - if you can reach that naturally you may not need an auto clicker at all.</p>
         <div style={{ marginTop: 12 }}>
           <a href="/cps-test/5" className="btn-teal" style={{ textDecoration: 'none', display: 'inline-block' }}>Take the CPS Test</a>
         </div>

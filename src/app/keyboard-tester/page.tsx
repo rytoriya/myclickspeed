@@ -24,7 +24,7 @@ export default function KeyboardTesterPage() {
       </div>
       <div className="content-section">
         <h2>What is Key Ghosting?</h2>
-        <p>Ghosting happens when pressing multiple keys simultaneously causes some keypresses to not register. Gaming keyboards are designed to avoid ghosting — they use N-key rollover (NKRO) which allows every key to be detected no matter how many others are pressed at the same time.</p>
+        <p>Ghosting happens when pressing multiple keys simultaneously causes some keypresses to not register. Gaming keyboards are designed to avoid ghosting - they use N-key rollover (NKRO) which allows every key to be detected no matter how many others are pressed at the same time.</p>
       </div>
       <RelatedTools currentHref="/keyboard-tester" />
     </div>

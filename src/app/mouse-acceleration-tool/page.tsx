@@ -19,7 +19,7 @@ export default function MouseAccelerationPage() {
       <AccelerationWidget />
       <div className="content-section">
         <h2>What is Mouse Acceleration?</h2>
-        <p>Mouse acceleration changes how far your cursor moves based on how fast you move the mouse — not just how far you physically move it. When acceleration is on, a fast flick moves the cursor further than a slow deliberate movement of the same physical distance. This inconsistency makes aim training harder since the same physical movement produces different results depending on your speed.</p>
+        <p>Mouse acceleration changes how far your cursor moves based on how fast you move the mouse - not just how far you physically move it. When acceleration is on, a fast flick moves the cursor further than a slow deliberate movement of the same physical distance. This inconsistency makes aim training harder since the same physical movement produces different results depending on your speed.</p>
         <p>Most competitive FPS players disable mouse acceleration in Windows (Enhanced Pointer Precision) and in-game settings. To disable it on Windows: Control Panel → Mouse → Pointer Options → uncheck &quot;Enhance pointer precision&quot;.</p>
       </div>
       <RelatedTools currentHref="/mouse-acceleration-tool" />

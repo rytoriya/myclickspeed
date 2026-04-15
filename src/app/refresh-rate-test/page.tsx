@@ -19,7 +19,7 @@ export default function RefreshRateTestPage() {
       <RefreshRateWidget />
       <div className="content-section">
         <h2>Is My Monitor Running at Its Full Refresh Rate?</h2>
-        <p>A common issue is having a high-refresh monitor but it is not actually enabled. Check: Windows Display Settings → Advanced display → Refresh rate. Make sure it matches your monitor&apos;s spec. Also verify your cable — HDMI 1.4 caps at 60Hz at 1080p, while DisplayPort or HDMI 2.0+ supports 144Hz and above.</p>
+        <p>A common issue is having a high-refresh monitor but it is not actually enabled. Check: Windows Display Settings → Advanced display → Refresh rate. Make sure it matches your monitor&apos;s spec. Also verify your cable - HDMI 1.4 caps at 60Hz at 1080p, while DisplayPort or HDMI 2.0+ supports 144Hz and above.</p>
       </div>
       <RelatedTools currentHref="/refresh-rate-test" />
     </div>

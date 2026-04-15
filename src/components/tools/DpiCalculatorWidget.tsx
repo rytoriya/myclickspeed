@@ -31,10 +31,10 @@ export default function DpiCalculatorWidget() {
             <div style={{ fontSize: 12, color: '#0F6E56', marginBottom: 4 }}>Your eDPI</div>
             <div style={{ fontSize: 40, fontWeight: 800, color: '#085041' }}>{edpi}</div>
             <div style={{ fontSize: 12, color: '#0F6E56', marginTop: 4 }}>
-              {edpi < 1000 ? 'Very low — precise, needs large movements' :
-               edpi < 2000 ? 'Low — good for FPS games' :
-               edpi < 4000 ? 'Medium — balanced sensitivity' :
-               'High — fast but less precise'}
+              {edpi < 1000 ? 'Very low - precise, needs large movements' :
+               edpi < 2000 ? 'Low - good for FPS games' :
+               edpi < 4000 ? 'Medium - balanced sensitivity' :
+               'High - fast but less precise'}
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function DisclaimerPage() {
       {[
         { title: 'Tool Accuracy', body: 'The CPS tests, mouse tools, and keyboard tools on My Click Speed are designed to be as accurate as possible within the limitations of browser-based JavaScript. Results may vary depending on your browser, hardware, and system performance. Results from our tools should not be used for professional hardware certification.' },
         { title: 'Third-Party Software', body: 'My Click Speed recommends various third-party auto clicker and gaming tools. We research these tools and link to official sources only. However, we are not responsible for the content, safety, or accuracy of third-party websites or software. Always scan downloaded files with antivirus software.' },
-        { title: 'Affiliate Disclosure', body: 'Some links on My Click Speed may be affiliate links. If you click an affiliate link and make a purchase, we may receive a small commission at no extra cost to you. This does not influence our recommendations — we only recommend tools we believe are genuinely useful.' },
+        { title: 'Affiliate Disclosure', body: 'Some links on My Click Speed may be affiliate links. If you click an affiliate link and make a purchase, we may receive a small commission at no extra cost to you. This does not influence our recommendations - we only recommend tools we believe are genuinely useful.' },
         { title: 'Gaming Use', body: 'Using auto clickers or other automation tools in online games may violate those games\' terms of service. My Click Speed is not responsible for any bans, penalties, or consequences that result from using automation tools in games.' },
       ].map(s => (
         <div key={s.title} className="content-section">

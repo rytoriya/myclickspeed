@@ -73,7 +73,7 @@ export default function AlphabetWidget() {
           />
           <div className="stat-grid">
             <div className="stat-card"><div className="stat-label">Progress</div><div className="stat-value" style={{ fontSize: 22 }}>{typed.length}/26</div></div>
-            <div className="stat-card"><div className="stat-label">Time</div><div className="stat-value" style={{ fontSize: 22, color: '#1D9E75' }}>{started ? ((performance.now() - startRef.current) / 1000).toFixed(2) + 's' : '—'}</div></div>
+            <div className="stat-card"><div className="stat-label">Time</div><div className="stat-value" style={{ fontSize: 22, color: '#1D9E75' }}>{started ? ((performance.now() - startRef.current) / 1000).toFixed(2) + 's' : '-'}</div></div>
             <div className="stat-card"><div className="stat-label">Errors</div><div className="stat-value" style={{ fontSize: 22, color: errors > 0 ? '#D85A30' : undefined }}>{errors}</div></div>
           </div>
         </>
@@ -82,7 +82,7 @@ export default function AlphabetWidget() {
           <div style={{ fontSize: 14, color: '#888', marginBottom: 6 }}>Your time</div>
           <div style={{ fontSize: 64, fontWeight: 800, color: '#1D9E75', lineHeight: 1 }}>{(elapsed / 1000).toFixed(3)}s</div>
           <div style={{ fontSize: 14, color: '#555', marginTop: 6, marginBottom: 20 }}>
-            {errors === 0 ? '✓ Perfect — no errors!' : `${errors} error${errors > 1 ? 's' : ''} made`}
+            {errors === 0 ? '✓ Perfect - no errors!' : `${errors} error${errors > 1 ? 's' : ''} made`}
           </div>
           <button className="btn-teal" onClick={reset}>Try Again</button>
         </div>

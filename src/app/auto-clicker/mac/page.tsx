@@ -93,7 +93,7 @@ export default function MacAutoClickerPage() {
       <div className="content-section">
         <h2>How to Use an Auto Clicker on Mac</h2>
         <p>After downloading, open the app and right-click → Open (macOS Gatekeeper may block it on first launch if it&apos;s not from the App Store). Go to System Settings → Privacy & Security → Accessibility and toggle on the auto clicker app. Without this permission, the app cannot simulate clicks.</p>
-        <p>Set your click interval (how fast to click), choose left or right button, and set a hotkey to start and stop. Move your cursor to the target position and press the hotkey — the auto clicker will click continuously until you press the stop hotkey.</p>
+        <p>Set your click interval (how fast to click), choose left or right button, and set a hotkey to start and stop. Move your cursor to the target position and press the hotkey - the auto clicker will click continuously until you press the stop hotkey.</p>
       </div>
 
       <div className="content-section">
