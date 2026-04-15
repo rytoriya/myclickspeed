@@ -19,7 +19,7 @@ export default function PixelCirclePage() {
       <MinecraftSphereWidget />
       <div className="content-section">
         <h2>What is a Pixel Circle?</h2>
-        <p>A pixel circle is a circle drawn on a grid where each cell represents one pixel (or block). Because grids are made of squares, true circular curves cannot be drawn exactly — so pixel circles use the best approximation by marking cells whose center falls within the circle radius. This technique is used in Minecraft building, pixel art, and any grid-based design.</p>
+        <p>A pixel circle is a circle drawn on a grid where each cell represents one pixel (or block). Because grids are made of squares, true circular curves cannot be drawn exactly - so pixel circles use the best approximation by marking cells whose center falls within the circle radius. This technique is used in Minecraft building, pixel art, and any grid-based design.</p>
       </div>
       <RelatedTools currentHref="/pixel-circle-generator" />
     </div>

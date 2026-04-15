@@ -19,7 +19,7 @@ export default function FpsTestPage() {
       <FpsWidget />
       <div className="content-section">
         <h2>Why Does FPS Matter in Gaming?</h2>
-        <p>Higher FPS means smoother gameplay and lower input lag. At 60 FPS each frame takes 16.7ms. At 144 FPS each frame takes just 6.9ms — cutting input lag by more than half. Competitive FPS players often target 144Hz or 240Hz monitors to gain a reaction time advantage.</p>
+        <p>Higher FPS means smoother gameplay and lower input lag. At 60 FPS each frame takes 16.7ms. At 144 FPS each frame takes just 6.9ms - cutting input lag by more than half. Competitive FPS players often target 144Hz or 240Hz monitors to gain a reaction time advantage.</p>
       </div>
       <RelatedTools currentHref="/fps-test" />
     </div>

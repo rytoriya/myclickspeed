@@ -92,8 +92,8 @@ export default function MouseTesterWidget() {
 
       <div style={{ textAlign: 'center', background: '#F4F6F8', borderRadius: 10, padding: 16, marginBottom: 16, fontSize: 14, color: '#555' }}>
         {tested.size === 0 && scrollCount === 0 ? 'Click any mouse button or scroll to test it' :
-         tested.size >= 3 ? `✓ ${tested.size} buttons tested + ${scrollCount} scrolls — mouse looks healthy!` :
-         `${tested.size} button${tested.size !== 1 ? 's' : ''} tested — keep going`}
+         tested.size >= 3 ? `✓ ${tested.size} buttons tested + ${scrollCount} scrolls - mouse looks healthy!` :
+         `${tested.size} button${tested.size !== 1 ? 's' : ''} tested - keep going`}
       </div>
 
       <div style={{ textAlign: 'center' }}>

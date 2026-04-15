@@ -38,7 +38,7 @@ export default function AccelerationWidget() {
     const slow = samples.filter(s => s.speed === 'slow')
     const fast = samples.filter(s => s.speed === 'fast')
     if (slow.length < 5 || fast.length < 5) {
-      setResult('Not enough data — move your mouse more slowly, then quickly.')
+      setResult('Not enough data - move your mouse more slowly, then quickly.')
       return
     }
     setResult('Based on your movement patterns, acceleration appears to be within normal range. For a definitive test, disable Enhanced Pointer Precision in Windows Mouse settings and retest.')
@@ -52,9 +52,9 @@ export default function AccelerationWidget() {
         style={{ background: tracking ? '#E1F5EE' : '#F4F6F8', border: `2px dashed ${tracking ? '#1D9E75' : '#E2E8F0'}`, borderRadius: 12, padding: '48px 20px', textAlign: 'center', marginBottom: 20, transition: 'all 0.2s', userSelect: 'none' }}
       >
         {!tracking ? (
-          <><div style={{ fontSize: 36, marginBottom: 10 }}>🖱️</div><div style={{ fontSize: 18, fontWeight: 700 }}>Click Start then move your mouse</div><div style={{ fontSize: 14, color: '#888', marginTop: 4 }}>Move slowly, then quickly — alternating speeds</div></>
+          <><div style={{ fontSize: 36, marginBottom: 10 }}>🖱️</div><div style={{ fontSize: 18, fontWeight: 700 }}>Click Start then move your mouse</div><div style={{ fontSize: 14, color: '#888', marginTop: 4 }}>Move slowly, then quickly - alternating speeds</div></>
         ) : (
-          <><div style={{ fontSize: 36, fontWeight: 800, color: '#1D9E75' }}>{samples.length}</div><div style={{ fontSize: 16, color: '#0F6E56', marginTop: 4 }}>movements recorded — alternate slow and fast</div></>
+          <><div style={{ fontSize: 36, fontWeight: 800, color: '#1D9E75' }}>{samples.length}</div><div style={{ fontSize: 16, color: '#0F6E56', marginTop: 4 }}>movements recorded - alternate slow and fast</div></>
         )}
       </div>
 

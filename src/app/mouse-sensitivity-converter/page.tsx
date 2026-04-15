@@ -19,7 +19,7 @@ export default function SensitivityConverterPage() {
       <SensitivityConverterWidget />
       <div className="content-section">
         <h2>Why Convert Sensitivity?</h2>
-        <p>Different games use completely different sensitivity scales — a sensitivity of 2.0 in CS2 feels nothing like 2.0 in Valorant. Converting lets you maintain the same physical mouse movement for a 360° turn across all games, so your muscle memory transfers directly.</p>
+        <p>Different games use completely different sensitivity scales - a sensitivity of 2.0 in CS2 feels nothing like 2.0 in Valorant. Converting lets you maintain the same physical mouse movement for a 360° turn across all games, so your muscle memory transfers directly.</p>
         <p>The conversion is based on matching the distance your mouse needs to travel to make a full 360° rotation in-game. Once you find a comfortable 360° distance, converting that across games keeps your aim training consistent regardless of what you play.</p>
       </div>
       <RelatedTools currentHref="/mouse-sensitivity-converter" />

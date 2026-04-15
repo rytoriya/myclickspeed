@@ -194,7 +194,7 @@ export function ApmWidget() {
         <div className="stat-card"><div className="stat-label">APM</div><div className="stat-value" style={{ fontSize: 22, color: '#1D9E75' }}>{apm}</div></div>
       </div>
       <div style={{ background: running ? '#E1F5EE' : '#F4F6F8', border: `2px dashed ${running ? '#1D9E75' : '#E2E8F0'}`, borderRadius: 12, padding: '32px 20px', textAlign: 'center', marginBottom: 16 }}>
-        {running ? <><div style={{ fontSize: 48, fontWeight: 800, color: '#1D9E75' }}>{apm}</div><div style={{ fontSize: 16, color: '#0F6E56' }}>actions per minute — keep going!</div></> : <><div style={{ fontSize: 32, marginBottom: 8 }}>⚡</div><div style={{ fontSize: 18, fontWeight: 700 }}>Click Start then use keyboard + mouse</div><div style={{ fontSize: 13, color: '#888', marginTop: 4 }}>Every keypress and click counts</div></>}
+        {running ? <><div style={{ fontSize: 48, fontWeight: 800, color: '#1D9E75' }}>{apm}</div><div style={{ fontSize: 16, color: '#0F6E56' }}>actions per minute - keep going!</div></> : <><div style={{ fontSize: 32, marginBottom: 8 }}>⚡</div><div style={{ fontSize: 18, fontWeight: 700 }}>Click Start then use keyboard + mouse</div><div style={{ fontSize: 13, color: '#888', marginTop: 4 }}>Every keypress and click counts</div></>}
       </div>
       <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>
         {!running && <button className="btn-teal" onClick={start}>Start APM Test</button>}
@@ -230,11 +230,11 @@ export function FpsWidget() {
   return (
     <div className="tool-card" style={{ textAlign: 'center' }}>
       <div style={{ background: '#F4F6F8', borderRadius: 12, padding: '40px 20px', marginBottom: 20 }}>
-        <div style={{ fontSize: 80, fontWeight: 800, color: running ? color : '#aaa', lineHeight: 1 }}>{running ? fps : '—'}</div>
+        <div style={{ fontSize: 80, fontWeight: 800, color: running ? color : '#aaa', lineHeight: 1 }}>{running ? fps : '-'}</div>
         <div style={{ fontSize: 18, color: '#555', marginTop: 8 }}>frames per second</div>
         {running && fps > 0 && (
           <div style={{ marginTop: 10, fontSize: 14, color: fps >= 120 ? '#1D9E75' : fps >= 60 ? '#BA7517' : '#D85A30', fontWeight: 600 }}>
-            {fps >= 144 ? 'Excellent — gaming grade' : fps >= 120 ? 'Great — very smooth' : fps >= 60 ? 'Good — playable' : fps >= 30 ? 'Low — choppy gaming' : 'Very low — performance issue'}
+            {fps >= 144 ? 'Excellent - gaming grade' : fps >= 120 ? 'Great - very smooth' : fps >= 60 ? 'Good - playable' : fps >= 30 ? 'Low - choppy gaming' : 'Very low - performance issue'}
           </div>
         )}
       </div>
@@ -274,8 +274,8 @@ export function RefreshRateWidget() {
   return (
     <div className="tool-card" style={{ textAlign: 'center' }}>
       <div style={{ background: '#F4F6F8', borderRadius: 12, padding: '40px 20px', marginBottom: 20 }}>
-        <div style={{ fontSize: 80, fontWeight: 800, color: '#1D9E75', lineHeight: 1 }}>{running && rate > 0 ? rounded : '—'}</div>
-        <div style={{ fontSize: 18, color: '#555', marginTop: 8 }}>Hz — monitor refresh rate</div>
+        <div style={{ fontSize: 80, fontWeight: 800, color: '#1D9E75', lineHeight: 1 }}>{running && rate > 0 ? rounded : '-'}</div>
+        <div style={{ fontSize: 18, color: '#555', marginTop: 8 }}>Hz - monitor refresh rate</div>
         {running && rate > 0 && <div style={{ fontSize: 13, color: '#888', marginTop: 6 }}>Raw reading: {rate} Hz</div>}
       </div>
       <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>

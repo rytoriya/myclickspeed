@@ -19,7 +19,7 @@ export default function SpacebarClickerPage() {
       <SpacebarWidget />
       <div className="content-section">
         <h2>Spacebar Speed in Gaming</h2>
-        <p>Spacebar speed matters in many games — jumping in platformers, dodging in action games, and confirming actions in strategy games all depend on quick spacebar reactions. The average spacebar press speed is around 4–6 taps per second. Elite players can reach 10+ taps per second.</p>
+        <p>Spacebar speed matters in many games - jumping in platformers, dodging in action games, and confirming actions in strategy games all depend on quick spacebar reactions. The average spacebar press speed is around 4–6 taps per second. Elite players can reach 10+ taps per second.</p>
       </div>
       <RelatedTools currentHref="/spacebar-clicker" />
     </div>

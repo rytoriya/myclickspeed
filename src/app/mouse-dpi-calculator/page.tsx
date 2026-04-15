@@ -19,7 +19,7 @@ export default function DpiCalculatorPage() {
       <DpiCalculatorWidget />
       <div className="content-section">
         <h2>What is DPI?</h2>
-        <p>DPI (Dots Per Inch) measures how sensitive your mouse is — specifically how many pixels the cursor moves per inch of physical mouse movement. A higher DPI means your cursor moves further with less physical movement.</p>
+        <p>DPI (Dots Per Inch) measures how sensitive your mouse is - specifically how many pixels the cursor moves per inch of physical mouse movement. A higher DPI means your cursor moves further with less physical movement.</p>
         <p>Most professional FPS gamers use 400–800 DPI combined with low in-game sensitivity. This gives more precise control because small cursor movements require deliberate physical movement.</p>
       </div>
       <div className="content-section">

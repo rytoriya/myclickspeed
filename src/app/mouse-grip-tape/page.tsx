@@ -38,7 +38,7 @@ export default function MouseGripTapePage() {
       </div>
       <div className="content-section">
         <h2>Does Grip Tape Help with Drag Clicking?</h2>
-        <p>Yes — significantly. Drag clicking works by creating friction between your finger and the mouse button surface. Grip tape adds controlled texture that makes drag clicking more consistent and easier to trigger. Many competitive Minecraft and Roblox players add grip tape specifically to improve their drag click CPS scores.</p>
+        <p>Yes - significantly. Drag clicking works by creating friction between your finger and the mouse button surface. Grip tape adds controlled texture that makes drag clicking more consistent and easier to trigger. Many competitive Minecraft and Roblox players add grip tape specifically to improve their drag click CPS scores.</p>
       </div>
       <RelatedTools currentHref="/mouse-grip-tape" />
     </div>

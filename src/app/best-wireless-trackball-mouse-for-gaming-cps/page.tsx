@@ -38,7 +38,7 @@ export default function TrackballMousePage() {
       </div>
       <div className="content-section">
         <h2>Are Trackball Mice Good for Gaming?</h2>
-        <p>Trackball mice excel in precision tasks and ergonomics but are less common in competitive gaming. They are excellent for CPS testing since you move the ball independently of the mouse body — many users find they can achieve higher sustained CPS with a trackball because their wrist stays stable. For FPS gaming, the learning curve is steep but some players swear by them for the precision they offer once mastered.</p>
+        <p>Trackball mice excel in precision tasks and ergonomics but are less common in competitive gaming. They are excellent for CPS testing since you move the ball independently of the mouse body - many users find they can achieve higher sustained CPS with a trackball because their wrist stays stable. For FPS gaming, the learning curve is steep but some players swear by them for the precision they offer once mastered.</p>
       </div>
       <RelatedTools currentHref="/best-wireless-trackball-mouse-for-gaming-cps" />
     </div>

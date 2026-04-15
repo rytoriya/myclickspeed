@@ -19,7 +19,7 @@ export default function AimTrainerPage() {
       <AimTrainerWidget />
       <div className="content-section">
         <h2>How to Improve Your Aim</h2>
-        <p>Consistent daily practice with an aim trainer is the fastest way to improve. Even 10–15 minutes before your gaming session can noticeably improve your performance. Focus on accuracy first — speed follows naturally once your muscle memory is trained.</p>
+        <p>Consistent daily practice with an aim trainer is the fastest way to improve. Even 10–15 minutes before your gaming session can noticeably improve your performance. Focus on accuracy first - speed follows naturally once your muscle memory is trained.</p>
         <p>Lower your mouse sensitivity. Most pro FPS players use 400–800 DPI with low in-game sensitivity. This forces deliberate, precise movements and builds better muscle memory than high sensitivity flicking.</p>
       </div>
       <RelatedTools currentHref="/aim-trainer" />

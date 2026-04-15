@@ -83,7 +83,7 @@ export default function KeyboardTesterWidget({ mechanical }: Props) {
         </div>
         <div className="stat-card" style={{ flex: 2, minWidth: 160 }}>
           <div className="stat-label">Last Key Pressed</div>
-          <div className="stat-value" style={{ fontSize: 18 }}>{lastKey ? getLabel(lastKey) : '—'}</div>
+          <div className="stat-value" style={{ fontSize: 18 }}>{lastKey ? getLabel(lastKey) : '-'}</div>
         </div>
         <button className="btn-outline" onClick={reset}>Reset</button>
       </div>
@@ -126,7 +126,7 @@ export default function KeyboardTesterWidget({ mechanical }: Props) {
       </div>
 
       <div style={{ textAlign: 'center', marginTop: 12, fontSize: 13, color: '#888' }}>
-        {mechanical ? 'Switch type is identified by keypress behavior' : 'Press keys to test them — green = tested, teal = currently held'}
+        {mechanical ? 'Switch type is identified by keypress behavior' : 'Press keys to test them - green = tested, teal = currently held'}
       </div>
     </div>
   )

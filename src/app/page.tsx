@@ -35,7 +35,7 @@ export default function HomePage() {
             Test Your Click Speed<br />Like a Pro
           </h1>
           <p style={{ fontSize: 17, color: 'rgba(255,255,255,0.85)', marginBottom: 28, lineHeight: 1.6 }}>
-            Professional CPS testers, mouse diagnostics, and keyboard tools — built for gamers who want the edge.
+            Professional CPS testers, mouse diagnostics, and keyboard tools - built for gamers who want the edge.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/cps-test/5" style={{ background: '#fff', color: '#0F6E56', padding: '14px 32px', borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: 'none' }}>
@@ -66,9 +66,9 @@ export default function HomePage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 20 }}>
             {[
               { icon: '⚡', title: '100% Free', desc: 'Every tool is completely free with no hidden charges or paywalls.' },
-              { icon: '🌐', title: 'No Download', desc: 'All tools run directly in your browser — nothing to install.' },
+              { icon: '🌐', title: 'No Download', desc: 'All tools run directly in your browser - nothing to install.' },
               { icon: '🎮', title: 'Built for Gamers', desc: 'Precision-tested tools designed to give you a competitive edge.' },
-              { icon: '📱', title: 'Works Everywhere', desc: 'Fully responsive — works on desktop, tablet, and mobile.' },
+              { icon: '📱', title: 'Works Everywhere', desc: 'Fully responsive - works on desktop, tablet, and mobile.' },
             ].map(f => (
               <div key={f.title}>
                 <div style={{ fontSize: 24, marginBottom: 8 }}>{f.icon}</div>
@@ -85,7 +85,7 @@ export default function HomePage() {
             The Ultimate Free CPS Test &amp; Gaming Tools Hub
           </h2>
           <p style={{ fontSize: 15, marginBottom: 20 }}>
-            Welcome to <strong>My Click Speed</strong> — your one-stop destination for free online click speed tests, mouse diagnostics, keyboard testers, typing speed tools, and much more. Whether you are a competitive gamer trying to max out your clicks per second, a casual player curious about your mouse performance, or a typist benchmarking your words per minute, we have every tool you need — all running directly in your browser with zero downloads required.
+            Welcome to <strong>My Click Speed</strong> - your one-stop destination for free online click speed tests, mouse diagnostics, keyboard testers, typing speed tools, and much more. Whether you are a competitive gamer trying to max out your clicks per second, a casual player curious about your mouse performance, or a typist benchmarking your words per minute, we have every tool you need - all running directly in your browser with zero downloads required.
           </p>
 
           <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>What Is a CPS Test?</h3>
@@ -100,22 +100,22 @@ export default function HomePage() {
 
           <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>Keyboard &amp; Typing Speed Tests</h3>
           <p style={{ fontSize: 15, marginBottom: 20 }}>
-            Your keyboard is just as important as your mouse. Our <Link href="/keyboard-tester" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Keyboard Tester</Link> visually confirms every key registers correctly — essential after installing a new mechanical switch or remapping a layout. Want to know how fast you type? The <Link href="/typing-speed-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Typing Speed Test</Link> calculates your WPM and accuracy in real time, while the <Link href="/1-minute-typing-speed-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>1-Minute Typing Test</Link> gives you a standardised benchmark you can compare against global averages.
+            Your keyboard is just as important as your mouse. Our <Link href="/keyboard-tester" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Keyboard Tester</Link> visually confirms every key registers correctly - essential after installing a new mechanical switch or remapping a layout. Want to know how fast you type? The <Link href="/typing-speed-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Typing Speed Test</Link> calculates your WPM and accuracy in real time, while the <Link href="/1-minute-typing-speed-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>1-Minute Typing Test</Link> gives you a standardised benchmark you can compare against global averages.
           </p>
 
           <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>Aim Training &amp; APM Tools</h3>
           <p style={{ fontSize: 15, marginBottom: 20 }}>
-            Reaction time and precision separate good players from great ones. Our browser-based <Link href="/aim-trainer" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Aim Trainer</Link> lets you warm up before jumping into competitive matches, while the <Link href="/apm-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>APM Test</Link> measures your Actions Per Minute — a key metric in strategy and RTS games. You can also use the <Link href="/mouse-sensitivity-converter" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Mouse Sensitivity Converter</Link> to carry your preferred sensitivity across different games without losing muscle memory.
+            Reaction time and precision separate good players from great ones. Our browser-based <Link href="/aim-trainer" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Aim Trainer</Link> lets you warm up before jumping into competitive matches, while the <Link href="/apm-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>APM Test</Link> measures your Actions Per Minute - a key metric in strategy and RTS games. You can also use the <Link href="/mouse-sensitivity-converter" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Mouse Sensitivity Converter</Link> to carry your preferred sensitivity across different games without losing muscle memory.
           </p>
 
           <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>Minecraft &amp; Specialty Tools</h3>
           <p style={{ fontSize: 15, marginBottom: 20 }}>
-            Beyond performance testing, My Click Speed offers a growing library of creator tools. Minecraft players can generate custom <Link href="/minecraft-color-codes" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Color Codes</Link>, design 3D sphere schematics with the <Link href="/minecraft-sphere-generator" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Sphere Generator</Link>, and craft commands with the <Link href="/minecraft-command-generator" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Command Generator</Link>. We also provide tools like the <Link href="/tally-counter" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Tally Counter</Link>, <Link href="/fps-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>FPS Test</Link>, and <Link href="/refresh-rate-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Refresh Rate Test</Link> — utilities that any PC gamer will find immediately useful.
+            Beyond performance testing, My Click Speed offers a growing library of creator tools. Minecraft players can generate custom <Link href="/minecraft-color-codes" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Color Codes</Link>, design 3D sphere schematics with the <Link href="/minecraft-sphere-generator" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Sphere Generator</Link>, and craft commands with the <Link href="/minecraft-command-generator" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Command Generator</Link>. We also provide tools like the <Link href="/tally-counter" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Tally Counter</Link>, <Link href="/fps-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>FPS Test</Link>, and <Link href="/refresh-rate-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>Refresh Rate Test</Link> - utilities that any PC gamer will find immediately useful.
           </p>
 
-          <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>Start Testing — It Only Takes Seconds</h3>
+          <h3 style={{ fontSize: 19, fontWeight: 700, marginBottom: 8, color: '#111' }}>Start Testing - It Only Takes Seconds</h3>
           <p style={{ fontSize: 15, marginBottom: 0 }}>
-            Every tool on My Click Speed is free, instant, and built with accuracy in mind. No account sign-ups, no ads interrupting your test, and no software to install. Simply pick a tool above and start in seconds. Whether you are chasing a personal best click speed or diagnosing a faulty mouse button, My Click Speed gives you the data you need to play — and perform — at your best.
+            Every tool on My Click Speed is free, instant, and built with accuracy in mind. No account sign-ups, no ads interrupting your test, and no software to install. Simply pick a tool above and start in seconds. Whether you are chasing a personal best click speed or diagnosing a faulty mouse button, My Click Speed gives you the data you need to play - and perform - at your best.
           </p>
         </div>
       </div>

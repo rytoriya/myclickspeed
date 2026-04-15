@@ -4,7 +4,7 @@ import RelatedTools from '@/components/tools/RelatedTools'
 
 export const metadata: Metadata = {
   title: 'Mouse Double Click Test – Detect Double Click Issues',
-  description: 'Test your mouse for double-click problems. Detect if your mouse registers two clicks from a single click — a common micro-switch issue.',
+  description: 'Test your mouse for double-click problems. Detect if your mouse registers two clicks from a single click - a common micro-switch issue.',
   alternates: { canonical: 'https://myclickspeed.com/mouse-double-click-test' },
 }
 

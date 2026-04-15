@@ -142,7 +142,7 @@ export default function AutoClickerPage() {
           <h2>Auto Clicker Safety Tips</h2>
           <p>
             Always download auto clickers from the official developer website or a trusted platform like GitHub or SourceForge.
-            Avoid third-party download sites, torrent links, or forum posts — these frequently bundle malware or adware with the installer.
+            Avoid third-party download sites, torrent links, or forum posts - these frequently bundle malware or adware with the installer.
           </p>
           <p>
             Many legitimate auto clickers trigger antivirus warnings because they use the same system APIs as malware to simulate mouse input.

@@ -93,7 +93,7 @@ export default function TRexGame() {
         ctx.fillStyle = '#D85A30'
         ctx.font = 'bold 20px sans-serif'
         ctx.textAlign = 'center'
-        ctx.fillText('GAME OVER — Press Space to restart', W / 2, H / 2 + 8)
+        ctx.fillText('GAME OVER - Press Space to restart', W / 2, H / 2 + 8)
         ctx.textAlign = 'left'
       }
     }

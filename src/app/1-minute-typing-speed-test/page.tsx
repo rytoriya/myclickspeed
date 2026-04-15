@@ -19,7 +19,7 @@ export default function OneMinTypingPage() {
       <TypingWidget mode="1min" />
       <div className="content-section">
         <h2>Why 1 Minute is the Standard</h2>
-        <p>The 1-minute typing test gives a more accurate picture of your sustained typing speed than shorter tests. Short bursts can be misleading — a 60-second test averages out your natural pace including pauses and corrections.</p>
+        <p>The 1-minute typing test gives a more accurate picture of your sustained typing speed than shorter tests. Short bursts can be misleading - a 60-second test averages out your natural pace including pauses and corrections.</p>
         <p>Most typing speed certifications and job requirements use the 1-minute WPM test as the standard benchmark. A score of 40+ WPM qualifies for most office jobs, while 60+ WPM is expected for data entry roles.</p>
       </div>
       <RelatedTools currentHref="/1-minute-typing-speed-test" />

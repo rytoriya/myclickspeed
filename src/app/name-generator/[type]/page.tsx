@@ -75,7 +75,7 @@ const NAME_CONFIGS: Record<string, {
     title: 'Random Name Generator – Generate Random Names Instantly',
     description: 'Generate completely random names instantly. Perfect for usernames, game characters, or any creative project.',
     h1: 'Random Name Generator',
-    intro: 'Generate random names for any purpose — characters, usernames, projects, or just for fun.',
+    intro: 'Generate random names for any purpose - characters, usernames, projects, or just for fun.',
     prefixes: ['Ax','Brix','Clov','Dex','Evo','Flux','Gryn','Hux','Iox','Jex','Krix','Lox'],
     suffixes: ['on','ar','ix','en','or','ax','ex','us','an','yx','ez','oz'],
   },

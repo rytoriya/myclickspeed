@@ -20,7 +20,7 @@ export default function SensitivityConverterWidget() {
   const fromMultiplier = GAMES[fromGame].multiplier
   const toMultiplier = GAMES[toGame].multiplier
   const inputSens = parseFloat(sens) || 0
-  const converted = inputSens > 0 ? ((inputSens * fromMultiplier) / toMultiplier).toFixed(4) : '—'
+  const converted = inputSens > 0 ? ((inputSens * fromMultiplier) / toMultiplier).toFixed(4) : '-'
 
   return (
     <div className="tool-card">
@@ -67,7 +67,7 @@ export default function SensitivityConverterWidget() {
       </div>
 
       <div style={{ marginTop: 16, fontSize: 12, color: '#888', textAlign: 'center' }}>
-        Conversion is based on matching the 360° rotation distance across games. Results are approximate — fine-tune in-game.
+        Conversion is based on matching the 360° rotation distance across games. Results are approximate - fine-tune in-game.
       </div>
     </div>
   )

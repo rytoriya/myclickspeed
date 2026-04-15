@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 
 const keyboards = [
   { name: 'SteelSeries Apex Pro', price: '~$180', badge: 'Best Overall', badgeColor: '#1D9E75', desc: 'Adjustable actuation OmniPoint switches (0.1–4mm). Per-key actuation customization lets you set different distances for gaming vs typing keys. OLED display, aluminum frame, magnetic wrist rest included.', url: 'https://www.amazon.com/s?k=SteelSeries+Apex+Pro' },
-  { name: 'Logitech G Pro X TKL', price: '~$100', badge: 'Best for Esports', badgeColor: '#378ADD', desc: 'Swappable switch design — buy the keyboard once, try different switch types. Tenkeyless for more mousepad space. Used by professional esports players worldwide.', url: 'https://www.amazon.com/s?k=Logitech+G+Pro+X+TKL' },
-  { name: 'Keychron Q1 Pro', price: '~$120', badge: 'Best Typing Feel', badgeColor: '#7F77DD', desc: 'Premium aluminium gasket-mount design. QMK/VIA compatible for full key remapping. Wireless Bluetooth + wired. Best typing feel at this price point — low wobble, satisfying sound.', url: 'https://www.amazon.com/s?k=Keychron+Q1+Pro' },
+  { name: 'Logitech G Pro X TKL', price: '~$100', badge: 'Best for Esports', badgeColor: '#378ADD', desc: 'Swappable switch design - buy the keyboard once, try different switch types. Tenkeyless for more mousepad space. Used by professional esports players worldwide.', url: 'https://www.amazon.com/s?k=Logitech+G+Pro+X+TKL' },
+  { name: 'Keychron Q1 Pro', price: '~$120', badge: 'Best Typing Feel', badgeColor: '#7F77DD', desc: 'Premium aluminium gasket-mount design. QMK/VIA compatible for full key remapping. Wireless Bluetooth + wired. Best typing feel at this price point - low wobble, satisfying sound.', url: 'https://www.amazon.com/s?k=Keychron+Q1+Pro' },
   { name: 'Razer BlackWidow V4 75%', price: '~$130', badge: 'Best Wireless', badgeColor: '#BA7517', desc: 'Compact 75% wireless gaming keyboard with Razer Orange tactile switches. Hot-swappable switches, RGB, 200-hour battery. Great balance of portability and gaming features.', url: 'https://www.amazon.com/s?k=Razer+BlackWidow+V4' },
 ]
 
@@ -39,7 +39,7 @@ export default function BestGamingKeyboardsPage() {
       </div>
       <div className="content-section">
         <h2>Which Switch Type is Best for Gaming?</h2>
-        <p>Linear switches (Cherry MX Red, Gateron Yellow) are most popular for gaming — smooth, quiet, and fast actuation with no tactile bump to slow down key repeats. Tactile switches (Cherry MX Brown, Holy Pandas) are preferred by players who also type a lot, as the bump gives feedback without the noise of clicky switches. For typing speed tests specifically, any low-actuation linear switch will give the fastest results.</p>
+        <p>Linear switches (Cherry MX Red, Gateron Yellow) are most popular for gaming - smooth, quiet, and fast actuation with no tactile bump to slow down key repeats. Tactile switches (Cherry MX Brown, Holy Pandas) are preferred by players who also type a lot, as the bump gives feedback without the noise of clicky switches. For typing speed tests specifically, any low-actuation linear switch will give the fastest results.</p>
       </div>
       <div style={{ marginBottom: 24 }}>
         <a href="/keyboard-tester" style={{ padding: '10px 20px', background: '#E1F5EE', color: '#085041', borderRadius: 8, textDecoration: 'none', fontSize: 14, fontWeight: 500, display: 'inline-block' }}>

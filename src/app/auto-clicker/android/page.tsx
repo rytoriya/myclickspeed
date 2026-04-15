@@ -34,7 +34,7 @@ const androidClickers = [
     badge: 'Open Source',
     badgeColor: '#7F77DD',
     developer: 'Nain57 (GitHub)',
-    desc: 'Advanced open-source Android auto clicker that uses image detection to trigger taps. Clicks when a specific image appears on screen — perfect for event-based game automation.',
+    desc: 'Advanced open-source Android auto clicker that uses image detection to trigger taps. Clicks when a specific image appears on screen - perfect for event-based game automation.',
     pros: ['Open source on GitHub', 'Image-based detection', 'No root', 'Privacy-focused', 'Free forever'],
     downloadUrl: 'https://github.com/Nain57/Smart-AutoClicker',
     downloadLabel: 'View on GitHub',
@@ -61,7 +61,7 @@ export default function AndroidAutoClickerPage() {
       </div>
 
       <div style={{ background: '#E6F1FB', border: '1px solid #85B7EB', borderRadius: 10, padding: '12px 16px', marginBottom: 24, fontSize: 14, color: '#0C447C' }}>
-        ℹ️ All Android auto clickers require <strong>Accessibility Service</strong> permission to simulate taps. This is normal — it is how Android allows apps to automate screen interactions without root access.
+        ℹ️ All Android auto clickers require <strong>Accessibility Service</strong> permission to simulate taps. This is normal - it is how Android allows apps to automate screen interactions without root access.
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginBottom: 32 }}>

@@ -38,7 +38,7 @@ export default function AutoKeyPresserPage() {
       </div>
       <div className="content-section">
         <h2>AutoHotkey vs Simple Key Pressers</h2>
-        <p>For simple repeated key pressing (holding W to walk, spamming a skill button), a simple auto key presser like MurGaa is the fastest solution. For complex sequences — press F1, wait 2 seconds, press 3, wait 500ms, repeat — AutoHotkey is the right tool. Its scripting language is well-documented and has a large community with ready-made scripts for most popular games.</p>
+        <p>For simple repeated key pressing (holding W to walk, spamming a skill button), a simple auto key presser like MurGaa is the fastest solution. For complex sequences - press F1, wait 2 seconds, press 3, wait 500ms, repeat - AutoHotkey is the right tool. Its scripting language is well-documented and has a large community with ready-made scripts for most popular games.</p>
       </div>
       <RelatedTools currentHref="/auto-key-presser" />
     </div>
