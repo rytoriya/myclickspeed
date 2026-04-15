@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import ToolCategoryGrid from '@/components/tools/ToolCategoryGrid'
+import CpsWidget from '@/components/tools/CpsWidget'
 
 export const metadata: Metadata = {
   title: 'My Click Speed – Free CPS Test, Mouse & Keyboard Tools',
@@ -60,6 +61,14 @@ export default function HomePage() {
       </div>
 
       <div className="page-wrapper" style={{ paddingTop: 40, paddingBottom: 60 }}>
+
+        {/* CPS Test on home page */}
+        <div style={{ marginBottom: 48 }}>
+          <h2 className="section-title">Click Speed Test</h2>
+          <p className="section-subtitle">Click as fast as you can - select a time below to get started.</p>
+          <CpsWidget seconds={5} slug="5" type="standard" />
+        </div>
+
         <ToolCategoryGrid />
 
         {/* Why Use */}
