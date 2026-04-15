@@ -71,7 +71,7 @@ export default function BestGamingMousePage() {
                   <span style={{ fontSize: 11, padding: '3px 10px', borderRadius: 99, background: mouse.badgeColor + '20', color: mouse.badgeColor, fontWeight: 600 }}>{mouse.badge}</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-                  <Stars n={mouse.rating} />
+                  <Stars n={mouse.rating ?? 5} />
                   <span style={{ fontSize: 13, color: '#888' }}>{mouse.price}</span>
                 </div>
                 <p style={{ fontSize: 14, color: '#555', lineHeight: 1.7, margin: '0 0 10px' }}>{mouse.desc}</p>
