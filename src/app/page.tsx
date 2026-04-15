@@ -35,7 +35,7 @@ export default function HomePage() {
             Test Your Click Speed<br />Like a Pro
           </h1>
           <p style={{ fontSize: 17, color: 'rgba(255,255,255,0.85)', marginBottom: 28, lineHeight: 1.6 }}>
-            Professional CPS testers, mouse diagnostics, and keyboard tools — built for gamers who want the edge.
+            Professional CPS testers, mouse diagnostics, and keyboard tools - built for gamers who want the edge.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/cps-test/5" style={{ background: '#fff', color: '#0F6E56', padding: '14px 32px', borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: 'none' }}>
@@ -68,9 +68,9 @@ export default function HomePage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 20 }}>
             {[
               { icon: '⚡', title: '100% Free', desc: 'Every tool is completely free with no hidden charges or paywalls.' },
-              { icon: '🌐', title: 'No Download', desc: 'All tools run directly in your browser — nothing to install.' },
+              { icon: '🌐', title: 'No Download', desc: 'All tools run directly in your browser - nothing to install.' },
               { icon: '🎮', title: 'Built for Gamers', desc: 'Precision-tested tools designed to give you a competitive edge.' },
-              { icon: '📱', title: 'Works Everywhere', desc: 'Fully responsive — works on desktop, tablet, and mobile.' },
+              { icon: '📱', title: 'Works Everywhere', desc: 'Fully responsive - works on desktop, tablet, and mobile.' },
             ].map(f => (
               <div key={f.title}>
                 <div style={{ fontSize: 24, marginBottom: 8 }}>{f.icon}</div>
@@ -85,7 +85,7 @@ export default function HomePage() {
         <div className="content-section">
           <h2>What is a Click Speed Test?</h2>
           <p>
-            A click speed test — also called a CPS tester — measures how many times you can click your mouse button within
+            A click speed test - also called a CPS tester - measures how many times you can click your mouse button within
             a set time period. CPS stands for Clicks Per Second, and it&apos;s one of the most widely used benchmarks in
             competitive gaming. In Minecraft PvP, for example, raw clicking speed directly determines your hit rate in combat.
             The faster you can click, the more damage you deal before your opponent can react.
@@ -106,7 +106,7 @@ export default function HomePage() {
           </p>
           <p>
             Alongside the click speed tools, My Click Speed offers mouse accuracy tests, keyboard testers, an aim trainer,
-            APM measurement, and Minecraft utilities — all free, all browser-based, no download required. Whether you&apos;re
+            APM measurement, and Minecraft utilities - all free, all browser-based, no download required. Whether you&apos;re
             a casual gamer wanting to know your baseline or a competitive player grinding toward a higher CPS, these tools
             give you real-time feedback on exactly where you stand.
           </p>
@@ -114,7 +114,7 @@ export default function HomePage() {
 
         {/* CPS Score Guide */}
         <div className="content-section">
-          <h2>CPS Score Benchmarks — Where Do You Rank?</h2>
+          <h2>CPS Score Benchmarks - Where Do You Rank?</h2>
           <p>
             Not sure if your score is good? Here&apos;s how the community ranks CPS performance in a standard 5-second test:
           </p>
@@ -124,7 +124,7 @@ export default function HomePage() {
               { range: '5 – 7 CPS', label: 'Average', color: '#DBEAFE', accent: '#2563EB', note: 'Typical for most casual gamers.' },
               { range: '8 – 10 CPS', label: 'Good', color: '#D1FAE5', accent: '#059669', note: 'Competitive level for most games.' },
               { range: '11 – 13 CPS', label: 'Pro', color: '#E1F5EE', accent: '#1D9E75', note: 'Requires regular practice and technique.' },
-              { range: '14+ CPS', label: 'Elite', color: '#F3E8FF', accent: '#7C3AED', note: 'Top-tier — often involves jitter or butterfly clicking.' },
+              { range: '14+ CPS', label: 'Elite', color: '#F3E8FF', accent: '#7C3AED', note: 'Top-tier - often involves jitter or butterfly clicking.' },
             ].map(tier => (
               <div key={tier.label} style={{ background: tier.color, border: `1.5px solid ${tier.accent}30`, borderRadius: 12, padding: '16px 14px' }}>
                 <div style={{ fontSize: 13, fontWeight: 700, color: tier.accent, marginBottom: 4 }}>{tier.label}</div>
@@ -145,7 +145,7 @@ export default function HomePage() {
           <p>
             Once you&apos;ve used a click speed tester to establish your baseline, the natural next step is improving it.
             There are several techniques used by gamers to push their CPS higher. Each comes with different trade-offs in
-            speed, consistency, and physical strain — so knowing which method suits you helps you train smarter.
+            speed, consistency, and physical strain - so knowing which method suits you helps you train smarter.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 16, marginTop: 16 }}>
             {[
@@ -157,7 +157,7 @@ export default function HomePage() {
               {
                 title: 'Jitter Clicking',
                 href: '/cps-test/jitter',
-                desc: 'Tensing your arm and wrist to produce rapid involuntary muscle vibrations. Can reach 12–14 CPS but puts strain on the wrist — use sparingly.',
+                desc: 'Tensing your arm and wrist to produce rapid involuntary muscle vibrations. Can reach 12–14 CPS but puts strain on the wrist - use sparingly.',
               },
               {
                 title: 'Butterfly Clicking',
@@ -195,7 +195,7 @@ export default function HomePage() {
               },
               {
                 q: 'Does a higher CPS make you better at gaming?',
-                a: 'In games like Minecraft PvP, a higher CPS gives you more hits per second — a direct combat advantage. In FPS games, accuracy matters more than raw speed, but a fast reaction click still helps when taking duels. Use the Aim Trainer and Mouse Accuracy Test alongside the click speed tester to improve all aspects of your mouse performance.',
+                a: 'In games like Minecraft PvP, a higher CPS gives you more hits per second - a direct combat advantage. In FPS games, accuracy matters more than raw speed, but a fast reaction click still helps when taking duels. Use the Aim Trainer and Mouse Accuracy Test alongside the click speed tester to improve all aspects of your mouse performance.',
               },
               {
                 q: 'How do I improve my click speed?',
@@ -207,11 +207,11 @@ export default function HomePage() {
               },
               {
                 q: 'Do I need to install anything to test click speed?',
-                a: 'No. Every tool on My Click Speed — including all CPS testers, mouse tests, and keyboard tools — runs entirely in your browser. There is nothing to download or install, and all tools are completely free.',
+                a: 'No. Every tool on My Click Speed - including all CPS testers, mouse tests, and keyboard tools - runs entirely in your browser. There is nothing to download or install, and all tools are completely free.',
               },
               {
                 q: 'What devices are supported?',
-                a: 'All tools work on desktop and laptop computers. The click speed test and keyboard tools are designed for mouse and keyboard use. Mobile support varies by tool — CPS and keyboard tests naturally require physical hardware to give meaningful results.',
+                a: 'All tools work on desktop and laptop computers. The click speed test and keyboard tools are designed for mouse and keyboard use. Mobile support varies by tool - CPS and keyboard tests naturally require physical hardware to give meaningful results.',
               },
             ].map((item, i) => (
               <div key={i} style={{ borderBottom: i < 6 ? '1px solid #F0F0F0' : 'none', paddingBottom: i < 6 ? 20 : 0 }}>
