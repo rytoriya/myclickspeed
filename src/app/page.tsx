@@ -83,20 +83,32 @@ export default function HomePage() {
 
         {/* What is a CPS Test */}
         <div className="content-section">
-          <h2>What is a CPS Test?</h2>
+          <h2>What is a Click Speed Test?</h2>
           <p>
-            A CPS (Clicks Per Second) test measures how many times you can click your mouse button within a set time period.
-            It&apos;s one of the most widely used benchmarks in competitive gaming — particularly in Minecraft PvP, where raw clicking speed
-            directly determines your hit rate in combat.
+            A click speed test — also called a CPS tester — measures how many times you can click your mouse button within
+            a set time period. CPS stands for Clicks Per Second, and it&apos;s one of the most widely used benchmarks in
+            competitive gaming. In Minecraft PvP, for example, raw clicking speed directly determines your hit rate in combat.
+            The faster you can click, the more damage you deal before your opponent can react.
           </p>
           <p>
-            My Click Speed offers CPS tests from 1 second up to 100 seconds, letting you measure both peak burst speed and sustained
-            clicking endurance. Alongside CPS tests, the site includes mouse accuracy tests, keyboard testers, aim trainers, and a
-            full suite of gaming utilities — all free, all browser-based.
+            My Click Speed is a free online click speed tester that lets you test CPS across durations from 1 second up to
+            100 seconds. Short tests like the 5-second CPS test reveal your peak burst clicking speed, while longer tests
+            (30 seconds, 60 seconds) measure your ability to sustain a high rate without fatigue. Both types of data are
+            useful depending on what you&apos;re training for.
           </p>
           <p>
-            Whether you&apos;re a casual gamer curious about your baseline or a competitive player grinding toward a higher CPS,
-            these tools give you precise, real-time feedback so you know exactly where you stand and what to work on.
+            Beyond the standard click speed test, the site includes specialist tests: the{' '}
+            <Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter Click Test</Link>,{' '}
+            <Link href="/cps-test/butterfly" style={{ color: '#1D9E75' }}>Butterfly Click Test</Link>,{' '}
+            <Link href="/cps-test/kohi" style={{ color: '#1D9E75' }}>Kohi Click Test</Link>, and{' '}
+            <Link href="/cps-test/right-click" style={{ color: '#1D9E75' }}>Right-Click CPS Test</Link>.
+            Each targets a specific technique or scenario so you can test CPS in the way that actually applies to how you play.
+          </p>
+          <p>
+            Alongside the click speed tools, My Click Speed offers mouse accuracy tests, keyboard testers, an aim trainer,
+            APM measurement, and Minecraft utilities — all free, all browser-based, no download required. Whether you&apos;re
+            a casual gamer wanting to know your baseline or a competitive player grinding toward a higher CPS, these tools
+            give you real-time feedback on exactly where you stand.
           </p>
         </div>
 
@@ -131,8 +143,9 @@ export default function HomePage() {
         <div className="content-section">
           <h2>Popular Clicking Techniques Explained</h2>
           <p>
-            There are several clicking techniques used by gamers to maximise their CPS. Each has different trade-offs in speed,
-            consistency, and physical strain.
+            Once you&apos;ve used a click speed tester to establish your baseline, the natural next step is improving it.
+            There are several techniques used by gamers to push their CPS higher. Each comes with different trade-offs in
+            speed, consistency, and physical strain — so knowing which method suits you helps you train smarter.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 16, marginTop: 16 }}>
             {[
@@ -174,30 +187,34 @@ export default function HomePage() {
             {[
               {
                 q: 'What is a good CPS score?',
-                a: 'A CPS of 6–8 is considered good for casual gaming. Competitive players typically aim for 8–12 CPS. Anything above 12 is exceptional and usually requires a specific clicking technique.',
+                a: 'A CPS of 6–8 is considered good for casual gaming. Competitive players typically aim for 8–12 CPS. Anything above 12 is exceptional and usually requires a specific clicking technique such as jitter or butterfly clicking. Use the click speed test to measure your own score and track progress over time.',
+              },
+              {
+                q: 'How accurate is this click speed tester?',
+                a: 'My Click Speed uses browser-native timestamps (performance.now()) which are accurate to sub-millisecond precision. The CPS tester registers every mousedown event, so it accurately captures even very fast clicks. Set your mouse polling rate to 1000 Hz to ensure no clicks are missed at the hardware level.',
               },
               {
                 q: 'Does a higher CPS make you better at gaming?',
-                a: 'In games like Minecraft PvP, a higher CPS gives you more hits per second which is a direct advantage. In FPS games, accuracy matters more than raw speed — but a fast click reaction still helps. Use the Aim Trainer and Mouse Accuracy Test to work on both.',
+                a: 'In games like Minecraft PvP, a higher CPS gives you more hits per second — a direct combat advantage. In FPS games, accuracy matters more than raw speed, but a fast reaction click still helps when taking duels. Use the Aim Trainer and Mouse Accuracy Test alongside the click speed tester to improve all aspects of your mouse performance.',
               },
               {
-                q: 'How do I improve my CPS?',
-                a: 'Practice regularly with short, focused sessions using the CPS test. A gaming mouse with low actuation force makes clicking easier. Experiment with jitter or butterfly clicking if you want to push your score higher. Make sure your mouse polling rate is set to 1000 Hz.',
+                q: 'How do I improve my click speed?',
+                a: 'Practice consistently with short, focused sessions using the click speed test. A gaming mouse with light actuation force reduces the effort per click. Experiment with jitter or butterfly clicking to push beyond your regular ceiling. Ensure your mouse polling rate is at 1000 Hz and that your mousepad provides a smooth, consistent surface.',
               },
               {
                 q: 'Is jitter clicking bad for your wrist?',
-                a: 'Prolonged jitter clicking can cause wrist strain or repetitive stress injury. Take regular breaks and stop if you feel any pain or discomfort. Regular clicking is far gentler on your hand and still delivers solid CPS.',
+                a: 'Prolonged jitter clicking can cause wrist strain or repetitive stress injury. Take regular breaks and stop immediately if you feel pain or discomfort. Regular clicking is far gentler on your hand and still delivers competitive CPS numbers for most games.',
               },
               {
-                q: 'Do I need to install anything to use these tools?',
-                a: 'No. Every tool on My Click Speed runs entirely in your browser. There is nothing to download or install, and all tools are completely free.',
+                q: 'Do I need to install anything to test click speed?',
+                a: 'No. Every tool on My Click Speed — including all CPS testers, mouse tests, and keyboard tools — runs entirely in your browser. There is nothing to download or install, and all tools are completely free.',
               },
               {
                 q: 'What devices are supported?',
-                a: 'All tools work on desktop and laptop computers. The CPS test and keyboard tools are designed for mouse and keyboard use. Mobile support varies by tool — mouse and keyboard tests naturally require physical hardware.',
+                a: 'All tools work on desktop and laptop computers. The click speed test and keyboard tools are designed for mouse and keyboard use. Mobile support varies by tool — CPS and keyboard tests naturally require physical hardware to give meaningful results.',
               },
             ].map((item, i) => (
-              <div key={i} style={{ borderBottom: i < 5 ? '1px solid #F0F0F0' : 'none', paddingBottom: i < 5 ? 20 : 0 }}>
+              <div key={i} style={{ borderBottom: i < 6 ? '1px solid #F0F0F0' : 'none', paddingBottom: i < 6 ? 20 : 0 }}>
                 <div style={{ fontSize: 15, fontWeight: 700, color: '#1a1a1a', marginBottom: 6 }}>{item.q}</div>
                 <div style={{ fontSize: 14, color: '#555', lineHeight: 1.75 }}>{item.a}</div>
               </div>
