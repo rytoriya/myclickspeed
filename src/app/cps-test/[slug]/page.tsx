@@ -19,6 +19,8 @@ function getConfig(slug: string) {
       10: '10 Second Click Per Second Test | My Click Speed',
       15: '15 Second Click Per Second Test | My Click Speed',
       20: '20 Second Click Per Second Test | My Click Speed',
+      100: '100 Second CPS Test – Click Speed Endurance Test Online | My Click Speed',
+      60: '60 Second CPS Test – One Minute Click Speed Test | My Click Speed',
     }
     const descs: Record<number, string> = {
       1: 'Take the free 1 second CPS test and measure your peak clicking speed. Find out what your one second score means and how to improve it.',
@@ -26,6 +28,8 @@ function getConfig(slug: string) {
       5: 'Take the free 5 second CPS test and measure your clicking speed. The most balanced CPS format used across gaming communities worldwide.',
       10: 'Take the free 10 second CPS test and measure your sustained clicking speed. Find out what your ten second score means for gaming and how to improve it.',
       15: 'Take the free 15 second CPS test and measure your clicking endurance. See what score you can sustain over fifteen seconds and how it compares to shorter tests.',
+      100: 'Take the free 100 second CPS test and push your clicking endurance to the limit. Find out your sustained clicks per second over 100 seconds and how to improve it.',
+      60: 'Take the free 60 second CPS test and measure your clicks per minute. Find out how many clicks you can do in one minute and what your score means for gaming.',
       20: 'Take the free 20 second CPS test and find out your clicking endurance score. Twenty seconds separate technique from real stamina. Test yours free online.',
     }
     return {
@@ -360,6 +364,119 @@ function StandardContent({ seconds, type }: { seconds: number; type: string }) {
   )
 }
 
+function SixtySecondContent() {
+  return (
+    <>
+      <div className="content-section">
+        <h2>What is the 60 Second CPS Test?</h2>
+        <p>The 60 second CPS test is one of the most comprehensive ways to measure your clicking ability. Unlike shorter formats that reward burst speed, the one minute click speed test measures genuine stamina and consistency over a full sixty seconds. Your score at the end reflects not just how fast you can click, but how well you can sustain that speed without fading.</p>
+        <p>This test is also the easiest way to calculate your clicks per minute number. Whatever CPS score you achieve over 60 seconds, multiply it by 60 to get your total click count, which is your clicks per minute rate.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>What Your Clicks Per Minute Score Means</h2>
+        <p>The 60 second format produces scores that are the most honest reflection of your real clicking ability. Under 300 clicks per minute (5 CPS) is a relaxed casual pace. Between 300 and 420 clicks per minute (5 to 7 CPS) is average for most adults. Between 420 and 600 clicks per minute (7 to 10 CPS) is solid performance for casual gamers. Between 600 and 780 clicks per minute (10 to 13 CPS) is competitive territory. Above 780 clicks per minute (13 CPS) sustained over sixty seconds is exceptional and requires consistent technique and good physical conditioning.</p>
+        <p>If your one minute score drops significantly below your <Link href="/cps-test/10" style={{ color: '#1D9E75' }}>10 second score</Link>, your endurance needs work more than your raw speed does.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>60 Second Test vs One Minute Typing Test</h2>
+        <p>Players often compare their clicking speed to their typing speed. Just as a <Link href="/typing-speed-test" style={{ color: '#1D9E75' }}>typing speed test</Link> measures words per minute, the 60 second click speed test measures clicks per minute. The comparison is useful because both require sustained fine motor control over a full minute without letting fatigue break your rhythm.</p>
+        <p>Most people find their clicks per minute score is surprisingly lower than expected when they first take the sixty second test. That gap between your 5-second score and your one minute score shows exactly where endurance training is needed.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>How to Improve Your One Minute CPS Score</h2>
+        <p>Pacing is the key to a strong 60 second score. Players who start at full speed almost always fade after 20 to 30 seconds. Start at about 75 percent of your maximum speed and hold that rate steady through the full sixty seconds. A consistent 9 CPS for one minute beats a spike to 14 CPS followed by a collapse to 5 CPS.</p>
+        <p>Daily practice sessions of 3 to 5 attempts at the 60 second test build real clicking endurance over time. Between sessions, shorter warmup runs on the <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second test</Link> and the <Link href="/cps-test/10" style={{ color: '#1D9E75' }}>10 second test</Link> help keep your finger muscles active without overtaxing them.</p>
+        <p>Your mouse setup also matters more on long tests than short ones. A mouse with low button resistance and a 1000Hz polling rate reduces the physical effort required per click. Use our <Link href="/mouse-polling-rate-checker" style={{ color: '#1D9E75' }}>mouse polling rate checker</Link> to confirm your setup is optimized before a serious practice session.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Clicks Per Minute vs Clicks Per Second</h2>
+        <p>CPS and CPM measure the same thing at different scales. Your clicks per second score multiplied by 60 gives your clicks per minute total. A player averaging 10 CPS over sixty seconds is producing 600 clicks per minute.</p>
+        <p>The clicks per minute measurement is more commonly used outside gaming communities, particularly in productivity and data entry contexts where sustained clicking speed matters. For gaming, CPS is the standard. For comparing your performance to general population benchmarks, clicks per minute is the more recognizable number.</p>
+        <p>To get your personal CPM benchmark, take this 60 second test three times and average your total click counts across all three attempts. That average is your reliable clicks per minute rate.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is a good clicks per minute score?</h3>
+        <p>For casual use, 300 to 420 clicks per minute is perfectly functional. For gaming, 540 to 720 clicks per minute is competitive. Above 780 clicks per minute sustained for sixty seconds is considered advanced performance.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Is the 60 second test the same as a one minute click test?</h3>
+        <p>Yes. The 60 second CPS test and the one minute click speed test are the same thing measured in different ways. This test gives you both your CPS average and your total click count for the minute.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>How many clicks per minute is 10 CPS?</h3>
+        <p>10 CPS equals 600 clicks per minute. To convert any CPS score to clicks per minute, multiply by 60. So 7 CPS is 420 CPM, 12 CPS is 720 CPM, and 15 CPS is 900 CPM.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Why does my score drop so much compared to shorter tests?</h3>
+        <p>Sixty seconds is long enough for finger and forearm fatigue to become a significant factor. Players who score 12 CPS on the <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second test</Link> often average 8 to 9 CPS over sixty seconds. That gap closes with consistent endurance training over several weeks.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Should I use jitter clicking for the 60 second test?</h3>
+        <p><Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter clicking</Link> is very difficult to sustain for sixty seconds. Most players cannot maintain jitter technique beyond 15 to 20 seconds before forearm fatigue forces them to stop. Regular finger clicking with a relaxed rhythm is more effective for the one minute format.</p>
+      </div>
+    </>
+  )
+}
+
+
+
+function HundredSecondContent() {
+  return (
+    <>
+      <div className="content-section">
+        <h2>What Makes the 100 Second Test Unique</h2>
+        <p>The 100 second CPS test is the ultimate endurance challenge among standard click speed formats. At this length, the test has almost nothing to do with burst technique and everything to do with physical stamina, mental focus, and mechanical consistency. Most players are genuinely surprised by how much their CPS drops between their shorter test scores and their 100 second result.</p>
+        <p>Where the <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second test</Link> measures your peak speed and the <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second test</Link> measures your sustained endurance, the hundred second test reveals your absolute clicking floor — the speed you can reliably maintain when fatigue, focus loss, and physical strain all become real factors.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>What Your 100 Second Score Means</h2>
+        <p>Scoring well on the 100 second test requires a different mindset than shorter formats. Under 4 CPS over one hundred seconds indicates clicking mechanics that are entirely effort-dependent with no rhythm or technique. Between 4 and 6 CPS is average for most adults without any dedicated practice. Between 6 and 9 CPS shows solid clicking endurance and consistent mechanics. Reaching 9 to 11 CPS across the full one hundred seconds is genuinely impressive and puts you in advanced territory. Above 11 CPS for the full duration is elite level and requires real physical conditioning alongside good technique.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>How to Pace Yourself on the 100 Second Test</h2>
+        <p>Pacing strategy matters more on the 100 second test than any other format. Players who start at maximum effort almost always crash hard around the 30 to 40 second mark as their finger muscles reach fatigue. Once that fade starts it is very difficult to recover within the same attempt.</p>
+        <p>The most effective approach is to start at 70 to 75 percent of your comfortable maximum speed and hold it steady. If you feel fresh at the 50 second mark, gradually increase your pace for the final stretch. This negative split approach, holding back early and pushing later, consistently produces higher average scores than full effort from the start.</p>
+        <p>Take the <Link href="/cps-test/20" style={{ color: '#1D9E75' }}>20 second test</Link> and the <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second test</Link> regularly as training tools. Building your endurance across those formats gradually extends the duration you can maintain a consistent click rate, making the hundred second test more manageable over time.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Why Your Score Drops Across Longer Tests</h2>
+        <p>If you compare your scores across different test lengths, you will notice a consistent pattern. Your <Link href="/cps-test/1" style={{ color: '#1D9E75' }}>1 second score</Link> is your highest, your <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second score</Link> is lower, and your hundred second score is your lowest. This is completely expected and reflects the natural relationship between intensity and duration in any physical activity.</p>
+        <p>The drop from your 5 second score to your 100 second score tells you something useful about your fitness for clicking endurance. A drop of 2 to 3 CPS is typical and healthy. A drop of 5 or more CPS suggests that endurance rather than raw speed is your main limiting factor.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Training for the 100 Second Test</h2>
+        <p>Building endurance for the 100 second test takes a progressive approach. Start each practice session with a few <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second warmups</Link>, then move to <Link href="/cps-test/20" style={{ color: '#1D9E75' }}>20 second attempts</Link>, then <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second attempts</Link>, and finally attempt the one hundred second test. This progressive warmup reduces the shock to your finger muscles and produces more consistent scores.</p>
+        <p>Keep your grip loose throughout the test. A tight grip on your mouse causes forearm tension that builds up rapidly over 100 seconds and forces your CPS to drop sharply. A relaxed but controlled grip delays fatigue significantly.</p>
+        <p>Make sure your mouse hardware is not working against you. Use our <Link href="/mouse-polling-rate-checker" style={{ color: '#1D9E75' }}>mouse polling rate checker</Link> to confirm 1000Hz polling so every click registers accurately, and check our guide on the <Link href="/best-gaming-mouse-review-for-fast-clicking" style={{ color: '#1D9E75' }}>best gaming mice for fast clicking</Link> if you feel your current mouse is adding unnecessary resistance.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is a good score on the 100 second CPS test?</h3>
+        <p>For general purposes, 5 to 7 CPS over 100 seconds is a solid result. Reaching 8 to 10 CPS across the full duration shows real endurance. Above 10 CPS for 100 seconds is advanced and reflects consistent training.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Why is the 100 second test so much harder than shorter tests?</h3>
+        <p>Muscle fatigue accumulates over time. Clicking engages the same small muscles repeatedly with no rest. By one hundred seconds those muscles are working continuously for well over a minute, which pushes most people past their comfortable endurance threshold.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Can I use jitter clicking for 100 seconds?</h3>
+        <p><Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter clicking</Link> for 100 seconds is extremely difficult. The forearm tension required causes significant fatigue and most players cannot sustain it beyond 20 to 30 seconds. Regular rhythmic finger clicking is far more practical and sustainable for this format.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Should I take breaks during the test?</h3>
+        <p>No. The test runs continuously and pausing breaks your rhythm and drops your average. Instead focus on starting at a pace you can genuinely sustain for the full duration without needing to stop.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>How do I compare my 100 second score to my other scores?</h3>
+        <p>A healthy endurance profile looks like a gradual decline across formats. If your scores look like 12 CPS at 1 second, 10 CPS at 5 seconds, 8 CPS at 10 seconds, 7 CPS at 60 seconds, and 6 CPS at 100 seconds, that is a well-conditioned clicking profile. If the drop is steeper, focus on endurance training with longer format tests.</p>
+      </div>
+    </>
+  )
+}
+
 export default async function CpsTestPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params
   const config = getConfig(slug)
@@ -384,6 +501,8 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
     if (slug === '10') return <TenSecondContent />
     if (slug === '15') return <FifteenSecondContent />
     if (slug === '20') return <TwentySecondContent />
+    if (slug === '60') return <SixtySecondContent />
+    if (slug === '100') return <HundredSecondContent />
     return <StandardContent seconds={config!.seconds} type={config!.type} />
   }
 
@@ -394,14 +513,4 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
         <nav className="breadcrumb" aria-label="Breadcrumb">
           <a href="/">Home</a> › <a href="/cps-test/5">CPS Test</a> › <span>{config.h1}</span>
         </nav>
-        <div style={{ padding: '24px 0 8px' }}>
-          <h1 className="section-title">{config.h1}</h1>
-          <p className="section-subtitle">{config.intro}</p>
-        </div>
-        <CpsWidget seconds={config.seconds} slug={slug} type={config.type} />
-        {getContent()}
-        <RelatedTools currentHref={`/cps-test/${slug}`} />
-      </div>
-    </>
-  )
-}
+        <div style={{ padding: '24px 0 8px' }}></div>
