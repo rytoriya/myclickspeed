@@ -50,7 +50,7 @@ export default function HomePage() {
       </div>
 
       <div style={{ background: '#fff', borderBottom: '1px solid #E2E8F0', padding: '14px 20px', overflowX: 'auto' }}>
-        <div style={{ display: 'flex', gap: 8, maxWidth: 1100, margin: '0 auto', flexWrap: 'wrap', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: 8, maxWidth: 1100, margin: '0 auto', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
           <span style={{ fontSize: 13, color: '#888', marginRight: 4, whiteSpace: 'nowrap' }}>Quick CPS:</span>
           {[1, 2, 5, 10, 15, 20, 30, 60, 100].map(s => (
             <Link key={s} href={`/cps-test/${s}`} style={{ fontSize: 13, color: '#1D9E75', textDecoration: 'none', padding: '3px 10px', borderRadius: 99, border: '1px solid #E1F5EE', background: '#E1F5EE', whiteSpace: 'nowrap' }}>
