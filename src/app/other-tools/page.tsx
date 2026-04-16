@@ -2,14 +2,9 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Other Tools - Free Online Utilities | My Click Speed',
-  description: 'Free online tools including webcam mirror, and more utilities coming soon. All tools run in your browser with no download required.',
+  title: 'Other Tools – Free Online Utilities | My Click Speed',
+  description: 'Free online tools including webcam mirror and more utilities. All tools run in your browser with no download required.',
   alternates: { canonical: 'https://myclickspeed.com/other-tools' },
-  openGraph: {
-    title: 'Other Tools - Free Online Utilities | My Click Speed',
-    description: 'Free online tools including webcam mirror, and more utilities coming soon. No download required.',
-    url: 'https://myclickspeed.com/other-tools',
-  },
 }
 
 const tools = [
@@ -20,97 +15,73 @@ const tools = [
     href: '/online-mirror',
     badge: 'New',
   },
+  {
+    icon: '🔢',
+    name: 'Tally Counter',
+    desc: 'Simple online tally counter. Click to count, set custom step sizes, and undo mistakes.',
+    href: '/tally-counter',
+    badge: null,
+  },
+  {
+    icon: '🦕',
+    name: 'T-Rex Dino Game',
+    desc: 'Play the classic Chrome offline dinosaur game for free online. Jump over cacti and beat your high score.',
+    href: '/t-rex-dino-game',
+    badge: null,
+  },
+  {
+    icon: '🎯',
+    name: 'Pixel Circle Generator',
+    desc: 'Generate pixel-perfect circles for Minecraft, pixel art, and grid-based games.',
+    href: '/pixel-circle-generator',
+    badge: null,
+  },
 ]
 
 export default function OtherToolsPage() {
   return (
-    <div className="page-wrapper" style={{ paddingTop: 40, paddingBottom: 60 }}>
-      <nav className="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> › <span>Other Tools</span>
-      </nav>
+    <div className="page-wrapper">
+      <style>{`
+        .other-tool-card { 
+          background: #fff; 
+          border: 1px solid #E2E8F0; 
+          border-radius: 12px; 
+          padding: 20px; 
+          text-decoration: none; 
+          display: block; 
+          transition: border-color 0.15s, transform 0.1s; 
+        }
+        .other-tool-card:hover { 
+          border-color: #1D9E75; 
+          transform: translateY(-2px); 
+        }
+      `}</style>
 
-      <div style={{ padding: '24px 0 16px' }}>
+      <div style={{ padding: '24px 0 8px' }}>
         <h1 className="section-title">Other Tools</h1>
-        <p className="section-subtitle">
-          Free browser-based utilities that do not fit neatly into one category. No download, no account, no cost.
-        </p>
+        <p className="section-subtitle">Free online utilities that run directly in your browser. No download required.</p>
       </div>
 
-      {/* Tools grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 16, marginBottom: 48 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 16, marginBottom: 40 }}>
         {tools.map(tool => (
-          <Link
-            key={tool.href}
-            href={tool.href}
-            style={{
-              background: '#fff',
-              border: '1px solid #E2E8F0',
-              borderRadius: 14,
-              padding: 24,
-              textDecoration: 'none',
-              display: 'block',
-              transition: 'border-color 0.15s, transform 0.1s',
-              position: 'relative',
-            }}
-            onMouseEnter={e => {
-              const el = e.currentTarget as HTMLElement
-              el.style.borderColor = '#1D9E75'
-              el.style.transform = 'translateY(-2px)'
-            }}
-            onMouseLeave={e => {
-              const el = e.currentTarget as HTMLElement
-              el.style.borderColor = '#E2E8F0'
-              el.style.transform = 'translateY(0)'
-            }}
-          >
-            {tool.badge && (
-              <span style={{
-                position: 'absolute',
-                top: 14,
-                right: 14,
-                background: '#E1F5EE',
-                color: '#1D9E75',
-                fontSize: 11,
-                fontWeight: 700,
-                padding: '2px 8px',
-                borderRadius: 99,
-              }}>
-                {tool.badge}
-              </span>
-            )}
+          <Link key={tool.href} href={tool.href} className="other-tool-card">
             <div style={{ fontSize: 32, marginBottom: 12 }}>{tool.icon}</div>
-            <div style={{ fontSize: 15, fontWeight: 700, color: '#1a1a1a', marginBottom: 6 }}>{tool.name}</div>
-            <div style={{ fontSize: 13, color: '#666', lineHeight: 1.6 }}>{tool.desc}</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
+              <span style={{ fontSize: 16, fontWeight: 700, color: '#1a1a1a' }}>{tool.name}</span>
+              {tool.badge && (
+                <span style={{ fontSize: 11, padding: '2px 8px', borderRadius: 99, background: '#E1F5EE', color: '#085041', fontWeight: 600 }}>
+                  {tool.badge}
+                </span>
+              )}
+            </div>
+            <p style={{ fontSize: 13, color: '#666', lineHeight: 1.6, margin: 0 }}>{tool.desc}</p>
           </Link>
         ))}
-
-        {/* Placeholder coming soon card */}
-        <div style={{
-          background: '#F8FAFB',
-          border: '1px dashed #D0D7DE',
-          borderRadius: 14,
-          padding: 24,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          minHeight: 140,
-          textAlign: 'center',
-        }}>
-          <div style={{ fontSize: 28, marginBottom: 8, opacity: 0.4 }}>+</div>
-          <div style={{ fontSize: 13, color: '#999' }}>More tools coming soon</div>
-        </div>
       </div>
 
-      {/* Internal links section */}
       <div className="content-section">
-        <h2>Looking for More Tools?</h2>
-        <p>
-          My Click Speed has a full suite of gaming and productivity tools organized by category. Test your clicking speed with the <Link href="/cps-test/5" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>CPS tester</Link>, diagnose your mouse with the <Link href="/mouse-tester" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>mouse tester</Link>, or check your <Link href="/typing-speed-test" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>typing speed</Link>. All tools are free and run entirely in your browser.
-        </p>
-        <p>
-          Explore the <Link href="/keyboard-tester" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>keyboard tester</Link> to verify every key registers correctly, use the <Link href="/aim-trainer" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>aim trainer</Link> to sharpen your mouse accuracy, or try the <Link href="/online-mirror" style={{ color: '#1D9E75', textDecoration: 'none', fontWeight: 600 }}>online mirror</Link> to use your webcam as a quick mirror from any device.
-        </p>
+        <h2>More Tools Coming Soon</h2>
+        <p>We are constantly adding new free online tools to My Click Speed. Check back regularly for new utilities including reaction time testers, screen rulers, color pickers, and more gaming and productivity tools.</p>
       </div>
     </div>
   )
