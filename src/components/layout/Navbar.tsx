@@ -30,6 +30,7 @@ const navItems = [
       { label: 'Drift Test', href: '/mouse-drift-test' },
       { label: 'Aim Trainer', href: '/aim-trainer' },
       { label: 'APM Test', href: '/apm-test' },
+      { label: 'Polling Rate Checker', href: '/mouse-polling-rate-checker' },
     ],
   },
   {
