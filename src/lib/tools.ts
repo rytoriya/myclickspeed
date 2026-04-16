@@ -48,8 +48,9 @@ export const allTools: Tool[] = [
   // Other
   { name: 'Tally Counter', href: '/tally-counter', icon: '🔢', desc: 'Click to count', category: 'other' },
   { name: 'Clicker Counter', href: '/clicker-counter', icon: '➕', desc: 'Manual counter', category: 'other' },
-  { name: 'T-Rex Game', href: '/t-rex-dino-game', icon: '🦕', desc: 'Offline dino game', category: 'other' },
-]
+{ name: 'T-Rex Game', href: '/t-rex-dino-game', icon: '🦕', desc: 'Offline dino game', category: 'other' },
+  { name: 'Online Mirror', href: '/online-mirror', icon: '🪞', desc: 'Webcam as mirror', category: 'other' },
+  { name: '2048 Cupcakes', href: '/2048-cupcakes', icon: '🧁', desc: 'Cupcake puzzle game', category: 'other' },]
 
 export function getRelatedTools(currentHref: string, count = 6): Tool[] {
   const current = allTools.find(t => t.href === currentHref)

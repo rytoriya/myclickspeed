@@ -26,7 +26,17 @@ const categoryGroups = [
     color: '#FAEEDA',
     accent: '#BA7517',
     tools: ['Color Codes', 'Font Generator', 'Sphere Generator', 'Command Generator'],
-  },
+  },{
+  title: 'Other Tools & Games',
+  color: '#FEF3C7',
+  accent: '#D97706',
+  tools: ['2048 Cupcakes', 'Online Mirror', 'Tally Counter', 'T-Rex Dino Game'],
+},{
+  title: 'Other Tools & Games',
+  color: '#FEF3C7',
+  accent: '#D97706',
+  tools: ['2048 Cupcakes', 'Online Mirror', 'Tally Counter', 'T-Rex Game', 'Clicker Counter'],
+},
 ]
 
 function ToolCard({ tool, color, accent }: { tool: Tool; color: string; accent: string }) {
@@ -77,6 +87,7 @@ export default function ToolCategoryGrid() {
               {groupTools.map(tool => (
                 <ToolCard key={tool.href} tool={tool} color={group.color} accent={group.accent} />
               ))}
+              
             </div>
           </div>
         )
