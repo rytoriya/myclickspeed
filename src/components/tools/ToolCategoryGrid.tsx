@@ -30,12 +30,7 @@ const categoryGroups = [
   title: 'Other Tools & Games',
   color: '#FEF3C7',
   accent: '#D97706',
-  tools: ['2048 Cupcakes', 'Online Mirror', 'Tally Counter', 'T-Rex Dino Game'],
-},{
-  title: 'Other Tools & Games',
-  color: '#FEF3C7',
-  accent: '#D97706',
-  tools: ['2048 Cupcakes', 'Online Mirror', 'Tally Counter', 'T-Rex Game', 'Clicker Counter'],
+  tools: ['2048 Cupcakes', 'Online Mirror', 'Tally Counter', 'T-Rex Game'],
 },
 ]
 
