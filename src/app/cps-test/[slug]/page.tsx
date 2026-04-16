@@ -5,12 +5,81 @@ import RelatedTools from '@/components/tools/RelatedTools'
 import { CPS_TIMES } from '@/lib/tools'
 
 type Params = { slug: string }
-type Section = { h2: string; paras: string[] }
+type QA = { q: string; a: string }
+type Section = { h2: string; paras?: string[]; qa?: QA[] }
 
 const SPECIAL = ['jitter', 'kohi', 'butterfly', 'right-click']
 
 // Unique content for specific pages
-const UNIQUE_CONTENT: Record<string, { title: string; description: string; h1: string; intro: string; sections: Section[] }> = {
+const UNIQUE_CONTENT: Record<string, { title: string; description: string; h1: string; intro: string; introPara?: string; sections: Section[] }> = {
+  'jitter': {
+    title: 'Jitter Click Test - Test Your Jitter Clicking Speed Online | My Click Speed',
+    description: 'Test your jitter clicking speed over 10 seconds with our free online CPS tester. Track your progress and see how your jitter click CPS compares to other players.',
+    h1: 'Jitter Click Test - Test Your Jitter Clicking Speed Online',
+    intro: 'Jitter clicking uses rapid arm muscle vibrations to generate clicks far faster than conscious pressing. Click for 10 seconds to measure your sustained jitter click CPS.',
+    introPara: 'Jitter clicking is one of the most demanding clicking techniques in competitive gaming. Unlike regular clicking, jitter clicking uses rapid muscle vibrations in your arm and wrist to generate clicks far faster than your finger can consciously press. This test measures your jitter clicking speed over 10 seconds so you can track your progress and see how you compare to other players.',
+    sections: [
+      {
+        h2: 'What is Jitter Clicking?',
+        paras: [
+          'Jitter clicking is a technique where you tense the muscles in your forearm and wrist to create involuntary vibrations that rapidly actuate the mouse button. The result is a significantly higher clicks per second rate than regular finger clicking. Most players who have mastered jitter clicking can achieve between 9 and 14 CPS consistently, with some reaching above 15 CPS during short bursts.',
+          'The technique originated in Minecraft PvP communities where higher CPS directly translates to more hits in combat. Players discovered that by tensing their arm rather than consciously tapping each click, they could sustain click rates that would be physically impossible through deliberate clicking alone.',
+        ],
+      },
+      {
+        h2: 'How to Jitter Click',
+        paras: [
+          'Learning to jitter click takes consistent practice. Start by placing your index finger lightly on the mouse button without pressing it. Tense the muscles in your forearm while keeping your wrist relatively stable on the mousepad. The tension creates a natural vibration that causes your finger to repeatedly actuate the button.',
+          'Keep your arm muscles tight but not completely rigid. Too much tension leads to fatigue quickly and too little produces inconsistent clicks. Most players find that a moderate tension level in the lower forearm, combined with a relaxed shoulder, gives the best balance of speed and endurance.',
+          'Your grip matters too. A claw grip works best for jitter clicking because it positions the finger at a slight angle over the button, which amplifies the vibration transfer. Palm grip players often struggle to generate consistent vibrations because too much of the hand rests on the mouse, dampening the movement.',
+        ],
+      },
+      {
+        h2: 'What is a Good Jitter Click CPS Score?',
+        paras: [
+          'For players just learning the technique, 7 to 9 CPS is a solid starting point. Intermediate jitter clickers typically land between 10 and 13 CPS. Anything above 14 CPS sustained over a 10 second test puts you in the advanced category.',
+          'The world record for jitter clicking exceeds 20 CPS in short bursts, but sustaining above 16 CPS for a full 10 seconds requires significant practice and physical conditioning. For Minecraft PvP purposes, consistently hitting 12 to 14 CPS gives you a meaningful advantage without excessive strain on your wrist.',
+          'Do not compare your 1 second burst score to your 10 second average. Short bursts inflate your numbers because you can sustain peak muscle tension for only a moment. The 10 second test gives a more honest picture of your actual sustained jitter clicking ability.',
+        ],
+      },
+      {
+        h2: 'Jitter Clicking vs Butterfly Clicking vs Drag Clicking',
+        paras: [
+          'These three techniques each have different mechanics and use cases. Jitter clicking uses arm muscle tension to generate vibrations. Butterfly clicking uses two fingers alternating on the same button to double the click rate mechanically. Drag clicking involves dragging the finger across the button surface to register multiple clicks from friction.',
+          'Jitter clicking is the most physically demanding but requires no special mouse surface. Butterfly clicking can reach 20 to 25 CPS but some game servers detect and ban it. Drag clicking can exceed 30 CPS but requires a mouse with the right surface texture and is banned on most competitive servers.',
+          'For general Minecraft PvP, jitter clicking is the most widely accepted technique. It produces natural looking click patterns that are harder for anti-cheat systems to flag compared to butterfly or drag clicking.',
+        ],
+      },
+      {
+        h2: 'Does Jitter Clicking Damage Your Hand?',
+        paras: [
+          'This is one of the most searched questions about the technique. Jitter clicking does put strain on the forearm muscles, tendons, and wrist. Short sessions of a few minutes at a time are unlikely to cause lasting harm for most people. Extended jitter clicking sessions without breaks are associated with wrist fatigue, forearm soreness, and in some cases repetitive strain injury.',
+          'To reduce risk, limit continuous jitter clicking to sessions of 2 to 3 minutes with rest in between. Stretch your forearm and wrist before and after practice. If you feel sharp pain or tingling in your fingers or wrist, stop immediately. Carpal tunnel symptoms have been reported by players who jitter click for hours daily without proper rest.',
+          'The technique is meant for gaming performance, not marathon sessions. Use it strategically during PvP encounters rather than holding the mouse button down continuously.',
+        ],
+      },
+      {
+        h2: 'Best Mouse for Jitter Clicking',
+        paras: [
+          'Not every mouse jitter clicks equally well. The ideal mouse for jitter clicking has light buttons with low actuation force, a shape that supports claw grip, and a durable switch rated for millions of clicks. Heavy mice dampen the vibration transfer and make the technique harder to execute consistently.',
+          'Popular choices include the Logitech G Pro X Superlight for its ultra-light 61g frame, the Razer DeathAdder V3 for its ergonomic shape and low actuation optical switches, and the Glorious Model O for its honeycomb shell that reduces weight without sacrificing rigidity.',
+          'Avoid mice with stiff heavy buttons or spring loaded switches that require significant force to actuate. The goal is for vibration to do the work, not deliberate pressing.',
+        ],
+      },
+      {
+        h2: 'Jitter Click Test FAQ',
+        qa: [
+          { q: 'What is the average jitter click CPS?', a: 'Most players learning jitter clicking average between 8 and 12 CPS. Players who have practiced the technique consistently for several weeks typically reach 12 to 14 CPS on a sustained 10 second test.' },
+          { q: 'How do I improve my jitter click CPS?', a: 'Practice in short focused sessions daily. Focus on maintaining consistent tension rather than maximum tension. Record your scores after each session to track progress over time.' },
+          { q: 'Is jitter clicking allowed in Minecraft?', a: 'It depends on the server. Jitter clicking is generally permitted on most servers since it produces click patterns that resemble fast manual clicking. However, some servers with strict anti-cheat systems may flag unusually high CPS. Always check the specific rules of the server you play on.' },
+          { q: 'Does jitter clicking cause arthritis?', a: 'There is no direct evidence that jitter clicking causes arthritis. However, repetitive strain from excessive jitter clicking without rest can cause inflammation in tendons and joints. Practicing with proper rest intervals significantly reduces this risk.' },
+          { q: 'What is the highest jitter click CPS ever recorded?', a: 'Verified jitter click records exceed 20 CPS in burst tests. Sustained records over 10 seconds are generally lower, with top performers reaching 16 to 18 CPS consistently.' },
+          { q: 'Can you jitter click on a laptop trackpad?', a: 'Technically yes, but it is impractical. Trackpads lack the physical button mechanism that makes jitter clicking effective. A dedicated mouse is necessary for meaningful jitter clicking practice.' },
+          { q: 'Is the 10 second test better than the 1 second test for jitter clicking?', a: 'Yes. The 10 second test gives a more accurate measure of your sustained jitter clicking ability. The 1 second test captures only your peak burst speed, which is significantly higher than what you can maintain in an actual game.' },
+        ],
+      },
+    ],
+  },
   '1': {
     title: '1 Second CPS Test - My Click Speed',
     description: 'Take the 1 second CPS test to find your peak burst click speed. Free click speed tester with instant results. No download required.',
@@ -92,6 +161,11 @@ function getConfig(slug: string) {
   if (UNIQUE_CONTENT[slug]) {
     const u = UNIQUE_CONTENT[slug]
     const num = parseInt(slug)
+    // Special slugs need their own seconds/type values
+    if (slug === 'jitter') return { seconds: 10, type: 'jitter' as const, ...u }
+    if (slug === 'kohi') return { seconds: 10, type: 'kohi' as const, ...u }
+    if (slug === 'butterfly') return { seconds: 10, type: 'butterfly' as const, ...u }
+    if (slug === 'right-click') return { seconds: 10, type: 'right-click' as const, ...u }
     return { seconds: num, type: 'standard' as const, ...u }
   }
 
@@ -195,12 +269,28 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
 
         <CpsWidget seconds={config.seconds} slug={slug} type={config.type} />
 
+        {'introPara' in config && config.introPara && (
+          <div className="content-section">
+            <p style={{ margin: 0 }}>{config.introPara}</p>
+          </div>
+        )}
+
         {config.sections ? (
           // Unique per-page content
           config.sections.map((section) => (
             <div key={section.h2} className="content-section">
               <h2>{section.h2}</h2>
-              {section.paras.map((p, i) => <p key={i}>{p}</p>)}
+              {section.paras?.map((p, i) => <p key={i}>{p}</p>)}
+              {section.qa && (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginTop: 4 }}>
+                  {section.qa.map((item, i) => (
+                    <div key={i} style={{ borderBottom: i < section.qa!.length - 1 ? '1px solid #F0F0F0' : 'none', paddingBottom: i < section.qa!.length - 1 ? 16 : 0 }}>
+                      <div style={{ fontSize: 15, fontWeight: 700, color: '#1a1a1a', marginBottom: 6 }}>{item.q}</div>
+                      <div style={{ fontSize: 14, color: '#555', lineHeight: 1.75 }}>{item.a}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))
         ) : (
