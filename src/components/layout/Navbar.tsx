@@ -59,6 +59,7 @@ const navItems = [
     href: '/other-tools',
     children: [
       { label: 'All Other Tools', href: '/other-tools' },
+      { label: '2048 Cupcakes', href: '/2048-cupcakes' },
       { label: 'Online Mirror', href: '/online-mirror' },
     ],
   },
