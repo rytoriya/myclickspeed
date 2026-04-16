@@ -9,6 +9,13 @@ export const metadata: Metadata = {
 
 const tools = [
   {
+  icon: '🧁',
+  name: '2048 Cupcakes',
+  desc: 'Merge cupcake tiles from Vanilla to Rainbow in this fun puzzle game. Features undo, swap and shuffle.',
+  href: '/2048-cupcakes',
+  badge: 'New',
+},
+{
     icon: '🪞',
     name: 'Online Mirror',
     desc: 'Use your webcam as a free online mirror. Flip horizontally, go fullscreen, and switch cameras.',
