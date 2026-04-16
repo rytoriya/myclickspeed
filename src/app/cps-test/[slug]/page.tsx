@@ -513,4 +513,14 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
         <nav className="breadcrumb" aria-label="Breadcrumb">
           <a href="/">Home</a> › <a href="/cps-test/5">CPS Test</a> › <span>{config.h1}</span>
         </nav>
-        <div style={{ padding: '24px 0 8px' }}></div>
+        <div style={{ padding: '24px 0 8px' }}>
+          <h1 className="section-title">{config.h1}</h1>
+          <p className="section-subtitle">{config.intro}</p>
+        </div>
+        <CpsWidget seconds={config.seconds} slug={slug} type={config.type} />
+        {getContent()}
+        <RelatedTools currentHref={`/cps-test/${slug}`} />
+      </div>
+    </>
+  )
+}
