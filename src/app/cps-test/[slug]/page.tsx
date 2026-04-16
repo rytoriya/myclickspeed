@@ -50,10 +50,10 @@ function getConfig(slug: string) {
   }
   if (slug === 'kohi') return {
     seconds: 10, type: 'kohi' as const,
-    title: 'Kohi Click Test – Minecraft PvP CPS Speed Test | My Click Speed',
-    description: 'Take the Kohi click test and measure your sustained CPS over 10 seconds. The standard benchmark for Minecraft PvP players worldwide.',
+    title: 'Kohi Click Test – Free Kohi Clicking Speed Test Online | My Click Speed',
+    description: 'Take the free Kohi click test and measure your clicking speed in 10 seconds. Find out what Kohi clicking is, how it started, and how to improve your Kohi CPS score.',
     h1: 'Kohi Click Speed Test',
-    intro: 'The Kohi Click Test is the standard benchmark for Minecraft PvP players. Click for 10 seconds and see your sustained CPS performance.',
+    intro: 'The Kohi click test is the standard benchmark for Minecraft PvP players. Click for 10 seconds and find out your Kohi CPS score.',
   }
   if (slug === 'butterfly') return {
     seconds: 10, type: 'butterfly' as const,
@@ -477,6 +477,71 @@ function HundredSecondContent() {
   )
 }
 
+function KohiContent() {
+  return (
+    <>
+      <div className="content-section">
+        <h2>What is the Kohi Click Test?</h2>
+        <p>The Kohi click test is an online clicking speed test that measures how many times you can click your mouse in ten seconds. It gives you your CPS score, which stands for clicks per second, and shows how fast you can click in a sustained format. The test was originally created for Minecraft PvP players who needed a reliable way to practice and measure their clicking speed outside of actual gameplay.</p>
+        <p>The name comes from Kohi, a well-known Minecraft server that focused on competitive PvP game modes including Practice, Hardcore Factions, and Survival Games. Kohi featured a click speed test on its website so players could benchmark their CPS and prepare for battles. Although the Kohi server eventually merged with Badlion in 2016, the Kohi click test name stuck and remains one of the most recognised formats in the clicking speed community.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Why Clicking Speed Matters in Minecraft PvP</h2>
+        <p>In older versions of Minecraft Java Edition, CPS was one of the most important factors in combat. Players who could click faster landed more hits on their opponents, giving them a direct advantage in PvP fights. A player clicking at 10 CPS could theoretically outdamage a player clicking at 6 CPS in every exchange.</p>
+        <p>With the introduction of the 1.9 Combat Update, Minecraft added an attack cooldown system that reduced the advantage of raw clicking speed. However, on servers running older versions of the game, particularly those focused on factions and PvP like the original Kohi server, high CPS remains a genuine competitive advantage. Most dedicated Minecraft PvP servers still operate on pre-1.9 combat mechanics where your Kohi click test score directly affects your performance.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Clicking Methods for the Kohi Click Test</h2>
+        <p><strong>Regular clicking</strong> is the most common method, using the index finger to press the left mouse button. It is straightforward but limited to around 6 CPS for most people without additional technique.</p>
+        <p><Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter clicking</Link> uses forearm and wrist muscle tension to generate rapid involuntary vibrations that actuate the button faster than deliberate pressing. Experienced jitter clickers reach 10 to 14 CPS on the Kohi test. It is an advanced method that requires practice and carries some physical risk if overdone.</p>
+        <p><Link href="/cps-test/butterfly" style={{ color: '#1D9E75' }}>Butterfly clicking</Link> uses two fingers alternating on the same mouse button, effectively doubling your mechanical click rate. Players using butterfly clicking can reach 15 to 25 CPS but some servers flag unusually high scores as suspicious.</p>
+        <p>Drag clicking involves dragging the finger across the button to register multiple clicks from friction. It produces high CPS results but requires a mouse with the right surface texture and is banned on many competitive servers.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>What is a Good Kohi Click Test Score?</h2>
+        <p>For players just starting out, 3 to 6 CPS is a typical score using regular clicking with no technique training. Reaching 7 to 9 CPS puts you in solid competitive territory for most Minecraft PvP servers. Scores of 10 to 14 CPS using jitter clicking are considered advanced and give you a significant combat advantage in older Minecraft versions.</p>
+        <p>If you want to improve your Kohi CPS, consistent daily practice is the most effective approach. Take the test several times per session, note your score each time, and try to beat it. Most players see meaningful improvement within two to three weeks of daily ten minute practice sessions. Once you reach 8 to 10 CPS comfortably, learning jitter technique can push you into the 12 to 14 CPS range.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Kohi Click Test vs Other CPS Tests</h2>
+        <p>The Kohi click test is a ten second format, which makes it identical in duration to our standard <Link href="/cps-test/10" style={{ color: '#1D9E75' }}>10 second CPS test</Link>. The difference is mostly in name and the community that uses it. The Kohi name carries specific recognition among Minecraft PvP players while the standard 10 second test is used more broadly across gaming communities.</p>
+        <p>If you want to test shorter burst speed, our <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second CPS test</Link> and <Link href="/cps-test/1" style={{ color: '#1D9E75' }}>1 second CPS test</Link> are useful formats. For longer endurance tests that reveal your sustained clicking floor, try the <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second test</Link> or the <Link href="/cps-test/100" style={{ color: '#1D9E75' }}>100 second test</Link>. Each format tells you something different about your clicking ability.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Should You Use Auto Clickers for the Kohi Test?</h2>
+        <p>Auto clickers are software tools that automate mouse clicks programmatically. While they can produce extremely high CPS numbers on any click test, using them defeats the purpose of the test entirely and is considered cheating in all competitive gaming contexts.</p>
+        <p>Most Minecraft servers actively detect auto clicker usage through anti-cheat systems that identify inhuman click patterns. Using an <Link href="/auto-clicker" style={{ color: '#1D9E75' }}>auto clicker</Link> in competitive play risks a permanent ban from the server.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is the Kohi click test?</h3>
+        <p>The Kohi click test is a ten second clicking speed test that measures your CPS. It was originally featured on the Kohi Minecraft server and became the standard benchmark for Minecraft PvP players worldwide.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>How did the Kohi click test get its name?</h3>
+        <p>It is named after the Kohi Minecraft server, which was known for its competitive PvP game modes. The server featured a click test on its website for players to practice their clicking speed. Kohi merged with Badlion in 2016 but the test name remained popular.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is a good Kohi click test score?</h3>
+        <p>For casual gaming, 6 to 8 CPS is solid. For competitive Minecraft PvP on older versions, aim for 10 to 12 CPS. Scores above 14 CPS are advanced and typically require jitter or butterfly clicking technique.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Is jitter clicking allowed on Hypixel?</h3>
+        <p>Jitter clicking is generally allowed on Hypixel as long as you are not using banned modifications or software. However, Hypixel's anti-cheat system can flag unusually consistent high CPS patterns. Always check current server rules as policies are updated regularly.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>How do I improve my Kohi click speed?</h3>
+        <p>Practice daily with short focused sessions. Start with regular clicking and build your speed gradually. Once comfortable at 7 to 8 CPS, learn jitter clicking to push past 10 CPS. Use a gaming mouse with low actuation force for easier clicking. Check our guide on the <Link href="/best-gaming-mouse-review-for-fast-clicking" style={{ color: '#1D9E75' }}>best gaming mice for fast clicking</Link> for hardware recommendations.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What clicking method works best for Kohi?</h3>
+        <p>Regular clicking works for beginners. <Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter clicking</Link> is the most practical advanced technique for the Kohi test because it can be sustained for ten seconds by most trained players. <Link href="/cps-test/butterfly" style={{ color: '#1D9E75' }}>Butterfly clicking</Link> produces higher scores but is harder to control consistently over the full ten second duration.</p>
+      </div>
+    </>
+  )
+}
+
 export default async function CpsTestPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params
   const config = getConfig(slug)
@@ -495,6 +560,7 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
 
   function getContent() {
     if (slug === 'jitter') return <JitterContent />
+    if (slug === 'kohi') return <KohiContent />
     if (slug === '1') return <OneSecondContent />
     if (slug === '2') return <TwoSecondContent />
     if (slug === '5') return <FiveSecondContent />
