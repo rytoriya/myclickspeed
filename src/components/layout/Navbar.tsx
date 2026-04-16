@@ -53,6 +53,14 @@ const navItems = [
       { label: 'Auto Key Presser', href: '/auto-key-presser' },
     ],
   },
+  {
+    label: 'Other Tools',
+    href: '/other-tools',
+    children: [
+      { label: 'All Other Tools', href: '/other-tools' },
+      { label: 'Online Mirror', href: '/online-mirror' },
+    ],
+  },
   { label: 'Blog', href: '/blogs' },
 ]
 

@@ -74,6 +74,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best-wireless-trackball-mouse-for-gaming-cps',
     '/best-gaming-keyboards-review',
     '/mouse-grip-tape',
+    '/online-mirror',
+    '/other-tools',
     '/blogs',
     '/about',
     '/contact-us',
