@@ -3,7 +3,6 @@ import Script from 'next/script'
 import '../styles/globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
-import Sidebar from '@/components/layout/Sidebar'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://myclickspeed.com'),
