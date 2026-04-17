@@ -3,6 +3,7 @@ import Script from 'next/script'
 import '../styles/globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
+import Sidebar from '@/components/layout/Sidebar'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://myclickspeed.com'),
@@ -71,7 +72,17 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
-        <main>{children}</main>
+        <div style={{
+          display: 'flex',
+          maxWidth: 1300,
+          margin: '0 auto',
+          padding: '0 16px',
+          gap: 24,
+          alignItems: 'flex-start',
+        }}>
+          <main style={{ flex: 1, minWidth: 0 }}>{children}</main>
+          <Sidebar />
+        </div>
         <Footer />
       </body>
     </html>
