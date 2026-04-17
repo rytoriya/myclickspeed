@@ -71,17 +71,7 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
-        <div style={{
-          display: 'flex',
-          maxWidth: 1300,
-          margin: '0 auto',
-          padding: '0 16px',
-          gap: 24,
-          alignItems: 'flex-start',
-        }}>
-          <main style={{ flex: 1, minWidth: 0 }}>{children}</main>
-          <Sidebar />
-        </div>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
