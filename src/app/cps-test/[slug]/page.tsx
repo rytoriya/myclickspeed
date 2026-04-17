@@ -57,8 +57,8 @@ function getConfig(slug: string) {
   }
   if (slug === 'butterfly') return {
     seconds: 10, type: 'butterfly' as const,
-    title: 'Butterfly Click Test – Two Finger CPS Speed Test | My Click Speed',
-    description: 'Test your butterfly clicking speed online. Butterfly clicking uses two fingers alternating on one mouse button to achieve 15 to 25 CPS. Try it free.',
+    title: 'Butterfly Click Test – Two Finger CPS Speed Test Online | My Click Speed',
+    description: 'Take the free butterfly click test and measure your two finger clicking speed. Learn how to butterfly click, what CPS you can achieve, and whether it is allowed on your server.',
     h1: 'Butterfly Click Test',
     intro: 'Butterfly clicking alternates two fingers on one mouse button to double your click rate. Test your technique here over 10 seconds.',
   }
@@ -542,6 +542,69 @@ function KohiContent() {
   )
 }
 
+function ButterflyContent() {
+  return (
+    <>
+      <div className="content-section">
+        <h2>What is Butterfly Clicking?</h2>
+        <p>Butterfly clicking is a mouse clicking technique where two fingers, typically the index and middle finger, alternate rapidly on the same mouse button. Each finger presses down as the other lifts, creating a continuous alternating motion that resembles the flapping of butterfly wings. Because two fingers are sharing the work of one button, the effective click rate is roughly double what a single finger can achieve.</p>
+        <p>Most players who have mastered butterfly clicking can consistently reach 15 to 25 CPS on this test. Some experienced players reach above 25 CPS in short bursts, though sustaining that speed over ten seconds requires significant practice and coordination between both fingers.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>How to Butterfly Click</h2>
+        <p>Learning butterfly clicking takes coordination practice more than raw speed. Start by placing your index and middle finger side by side on the left mouse button. Begin by pressing one finger down gently while the other is lifted, then alternate. The motion should feel like a rocking or rolling motion across the button rather than two separate deliberate presses.</p>
+        <p>The key is keeping both fingers close to the button surface at all times. Players who lift their fingers too high between presses lose time and reduce their CPS. Keep the movement minimal and controlled. A claw grip or fingertip grip works best for butterfly clicking because it positions both fingers at the right angle over the button.</p>
+        <p>Practice at a slow controlled pace first to build the alternating muscle memory. Speed comes naturally once the coordination is established. Most players find they can reach a consistent butterfly clicking rhythm within one to two weeks of daily ten minute practice sessions.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Butterfly Click CPS — What Scores Can You Expect?</h2>
+        <p>Butterfly clicking produces significantly higher CPS scores than regular clicking or even <Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>jitter clicking</Link>. Beginners learning the technique typically score 8 to 12 CPS as they develop coordination. Intermediate players with a few weeks of practice reach 13 to 18 CPS consistently. Advanced butterfly clickers sustain 18 to 25 CPS over the full ten second test. Top players with exceptional coordination have recorded above 25 CPS in competitive settings.</p>
+        <p>Compare your butterfly clicking score to your regular clicking speed using the <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second CPS test</Link> and your <Link href="/cps-test/1" style={{ color: '#1D9E75' }}>1 second CPS test</Link> to see exactly how much the technique improves your numbers.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Butterfly Clicking vs Jitter Clicking vs Drag Clicking</h2>
+        <p><Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>Jitter clicking</Link> uses forearm muscle tension to generate vibrations. It is physically demanding and carries wrist strain risk with extended use. Most players cap out around 12 to 16 CPS with jitter technique.</p>
+        <p>Butterfly clicking uses two fingers alternating mechanically. It is less physically stressful than jitter clicking because the effort is distributed between two fingers. It produces higher CPS scores and is more sustainable over long gaming sessions.</p>
+        <p>Drag clicking involves dragging the finger across the mouse button to register multiple clicks through friction. It can produce extremely high CPS numbers but requires a mouse with a specific surface texture and is banned on most competitive servers.</p>
+        <p>For the Minecraft PvP community, butterfly clicking is a popular choice because it produces high CPS without the physical strain of jitter clicking. However, its detection on anti-cheat systems varies by server.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Is Butterfly Clicking Allowed in Minecraft?</h2>
+        <p>Whether butterfly clicking is allowed depends entirely on the specific server you play on. Some servers explicitly ban it while others permit it. The concern from server administrators is that butterfly clicking produces CPS rates that can trigger anti-cheat systems designed to detect auto clickers.</p>
+        <p>On servers using older PvP combat mechanics where high CPS gives a direct advantage, butterfly clicking is particularly powerful. The <Link href="/cps-test/kohi" style={{ color: '#1D9E75' }}>Kohi click test</Link> standard of ten seconds is the same format used on most competitive servers to benchmark CPS performance. If your butterfly clicking score is above 20 CPS, some anti-cheat systems may flag your account even if you are clicking manually.</p>
+        <p>Always check the specific rules of any server before using butterfly clicking in competitive play. When in doubt, standard clicking or jitter clicking at a moderate CPS is safer from a ban risk perspective.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Best Mouse for Butterfly Clicking</h2>
+        <p>Not all mice are suited for butterfly clicking. The ideal mouse has a wide button surface that accommodates two fingers comfortably, light actuation force so both fingers can press without significant effort, and a durable switch rated for tens of millions of clicks. Mice with very narrow buttons or steeply angled designs make it difficult to position two fingers correctly. See our guide on the <Link href="/best-gaming-mouse-review-for-fast-clicking" style={{ color: '#1D9E75' }}>best gaming mice for fast clicking</Link> for specific recommendations that work well with butterfly technique.</p>
+      </div>
+
+      <div className="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is the average butterfly click CPS?</h3>
+        <p>Most players who have practiced butterfly clicking for several weeks average between 15 and 20 CPS on the ten second test. Beginners just learning the technique typically start around 8 to 12 CPS.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Is butterfly clicking bad for your fingers?</h3>
+        <p>Butterfly clicking is generally less physically stressful than jitter clicking because the effort is split between two fingers rather than concentrated in forearm tension. However, excessive practice without breaks can still cause finger fatigue. Keep sessions to a reasonable length and take breaks.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Can you butterfly click on a laptop?</h3>
+        <p>Butterfly clicking on a laptop trackpad is impractical because trackpads do not have physical buttons that respond to the alternating pressure required. A dedicated mouse is necessary for butterfly clicking.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Does butterfly clicking work on all mice?</h3>
+        <p>Most mice support butterfly clicking but some designs make it difficult. Very narrow buttons, concave button shapes, or stiff actuation springs can make the technique harder. Low weight and light buttons make butterfly clicking easier and more consistent.</p>
+
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is the world record for butterfly clicking?</h3>
+        <p>Verified butterfly clicking records have exceeded 25 CPS in ten second tests. Short burst records in one second tests are higher, with some players recording above 30 CPS. Our <Link href="/cps-test/1" style={{ color: '#1D9E75' }}>1 second CPS test</Link> is the best format to attempt record butterfly clicking scores.</p>
+      </div>
+    </>
+  )
+}
+
 export default async function CpsTestPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params
   const config = getConfig(slug)
@@ -561,6 +624,7 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
   function getContent() {
     if (slug === 'jitter') return <JitterContent />
     if (slug === 'kohi') return <KohiContent />
+    if (slug === 'butterfly') return <ButterflyContent />
     if (slug === '1') return <OneSecondContent />
     if (slug === '2') return <TwoSecondContent />
     if (slug === '5') return <FiveSecondContent />
