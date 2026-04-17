@@ -19,7 +19,7 @@ const categoryGroups = [
     title: 'Keyboard & Typing',
     color: '#EEEDFE',
     accent: '#7F77DD',
-    tools: ['Keyboard Tester', 'Typing Speed', 'Spacebar Clicker', 'Mechanical Tester'],
+    tools: ['Keyboard Tester', 'Typing Speed', 'Spacebar Clicker', 'Mechanical Tester', 'Keyboard Polling Rate','Keyboard Latency' ],
   },
   {
     title: 'Minecraft Tools',
