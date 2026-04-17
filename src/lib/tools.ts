@@ -36,6 +36,7 @@ export const allTools: Tool[] = [
   { name: 'Spacebar Clicker', href: '/spacebar-clicker', icon: '⬜', desc: 'Spacebar speed', category: 'keyboard' },
   { name: 'Type Alphabet', href: '/type-the-alphabet', icon: '🔤', desc: 'A-Z speed test', category: 'keyboard' },
   { name: 'Keyboard Latency', href: '/keyboard-latency-test', icon: '⏱️', desc: 'Input lag test', category: 'keyboard' },
+  { name: 'Keyboard Polling Rate', href: '/keyboard-polling-rate-checker', icon: '📡', desc: 'Keyboard polling Hz', category: 'keyboard' },
   { name: 'How Fast Tap', href: '/how-fast-can-you-tap', icon: '👆', desc: 'Tap speed test', category: 'keyboard' },
   // Minecraft
   { name: 'Color Codes', href: '/minecraft-color-codes', icon: '🎨', desc: 'MC color reference', category: 'minecraft' },

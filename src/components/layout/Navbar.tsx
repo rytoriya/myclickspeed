@@ -41,6 +41,9 @@ const navItems = [
       { label: 'Typing Speed Test', href: '/typing-speed-test' },
       { label: 'Spacebar Clicker', href: '/spacebar-clicker' },
       { label: 'Mechanical Tester', href: '/mechanical-keyboard-tester' },
+      { label: 'Keyboard Polling Rate', href: '/keyboard-polling-rate-checker' },
+      { label: 'Keyboard Latency Test', href: '/keyboard-latency-test' },
+
     ],
   },
   {
