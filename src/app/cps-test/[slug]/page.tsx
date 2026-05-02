@@ -17,6 +17,7 @@ function getConfig(slug: string) {
       2: '2 Second CPS Test – Click Speed Test in 2s | My Click Speed',
       5: '5 Second CPS Test – Click Speed Test Online | My Click Speed',
       10: '10 Second Click Per Second Test | My Click Speed',
+      30: '30 Second CPS Test – Thirty Second Click Speed Test Online | My Click Speed',
       15: '15 Second Click Per Second Test | My Click Speed',
       20: '20 Second Click Per Second Test | My Click Speed',
       100: '100 Second CPS Test – Click Speed Endurance Test Online | My Click Speed',
@@ -26,6 +27,7 @@ function getConfig(slug: string) {
       1: 'Take the free 1 second CPS test and measure your peak clicking speed. Find out what your one second score means and how to improve it.',
       2: 'Take the free 2 second CPS test and track your clicking consistency. Find out what your two second score means and how to improve it.',
       5: 'Take the free 5 second CPS test and measure your clicking speed. The most balanced CPS format used across gaming communities worldwide.',
+      30: 'Take the free 30 second CPS test and measure your clicking speed over thirty seconds. Find out what your score means for gaming and how to improve your sustained CPS.',
       10: 'Take the free 10 second CPS test and measure your sustained clicking speed. Find out what your ten second score means for gaming and how to improve it.',
       15: 'Take the free 15 second CPS test and measure your clicking endurance. See what score you can sustain over fifteen seconds and how it compares to shorter tests.',
       100: 'Take the free 100 second CPS test and push your clicking endurance to the limit. Find out your sustained clicks per second over 100 seconds and how to improve it.',
@@ -336,6 +338,52 @@ function TwentySecondContent() {
   )
 }
 
+function ThirtySecondContent() {
+  return (
+    <>
+      <div className="content-section">
+        <h2>What the 30 Second CPS Test Measures</h2>
+        <p>The 30 second CPS test sits at the crossroads between speed and stamina. It is long enough to reveal whether your clicking technique holds up under sustained effort, but short enough that you can still maintain close to your peak speed throughout. Where the <Link href="/cps-test/5" style={{ color: '#1D9E75' }}>5 second test</Link> captures your burst speed and the <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second test</Link> measures long-form stamina, the thirty second test gives you a balanced picture of your real competitive clicking ability.</p>
+        <p>Most players find their 30 second score is the most honest reflection of what they can actually deliver in an extended gaming fight. It is long enough to expose technique weaknesses but short enough to stay fully motivated throughout.</p>
+      </div>
+      <div className="content-section">
+        <h2>Games Where a Strong 30 Second CPS Score Matters</h2>
+        <p>Several games directly reward sustained fast clicking over periods of twenty to forty seconds.</p>
+        <p>In <a href="https://www.minecraft.net" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>Minecraft</a> PvP on 1.8 combat servers, fights regularly last between fifteen and forty five seconds. Your ability to maintain 9 to 12 CPS throughout that window directly determines how many hits you land. Servers like <a href="https://hypixel.net" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>Hypixel</a> and older factions servers use combat mechanics where your thirty second click rate is more relevant than any short burst.</p>
+        <p>In <a href="https://www.roblox.com/games/286090429/Arsenal" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>Roblox Arsenal</a> and <a href="https://www.roblox.com/games/6872265039/BedWars" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>Roblox Bedwars</a>, CPS matters in similar ways to Minecraft PvP. Combat sequences that extend past twenty seconds are common and your ability to maintain consistent clicking throughout determines outcomes.</p>
+        <p>In <a href="https://osu.ppy.sh" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>osu!</a>, a rhythm game with a large competitive community, sustained clicking accuracy and speed over long note sequences directly affects your score. Players regularly practice CPS tests to improve their stamina for longer maps.</p>
+        <p><a href="https://www.clickerheroes.com" target="_blank" rel="nofollow noopener noreferrer" style={{ color: '#1D9E75' }}>Clicker Heroes</a> and similar incremental games reward continuous fast clicking over extended sessions. They directly depend on your ability to click consistently over thirty seconds and beyond.</p>
+      </div>
+      <div className="content-section">
+        <h2>What Your 30 Second Score Means</h2>
+        <p>Under 5 CPS over thirty seconds is a casual relaxed pace. Between 5 and 7 CPS is average for most adults with no technique training. Between 7 and 10 CPS is solid competitive performance for most games. Between 10 and 12 CPS sustained over thirty seconds puts you in advanced territory. Above 12 CPS for the full thirty seconds shows excellent technique and physical conditioning.</p>
+        <p>If your 30 second score drops significantly below your <Link href="/cps-test/10" style={{ color: '#1D9E75' }}>10 second score</Link>, your technique is inconsistent and fading under sustained pressure. That gap is the most important thing to close if you want to improve your competitive gaming performance. The world record for clicking in thirty seconds was set by Tom Andre Seppola from Norway, who managed 830 clicks in thirty seconds, a rate of just over 27 CPS.</p>
+      </div>
+      <div className="content-section">
+        <h2>How to Improve Your 30 Second CPS Score</h2>
+        <p>Pacing is the key on the thirty second test. Players who start at maximum effort almost always fade noticeably around the 15 to 20 second mark as their finger muscles tire. Start at about 80 to 85 percent of your comfortable maximum and hold that pace steady through the full thirty seconds.</p>
+        <p>Learning <Link href="/cps-test/jitter" style={{ color: '#1D9E75' }}>jitter clicking</Link> is the most reliable way to push past 10 CPS on this format. Jitter technique generates clicks through muscle tension rather than deliberate pressing, which reduces finger fatigue over longer durations. With consistent daily practice most players see meaningful improvement in their thirty second score within two to three weeks.</p>
+        <p>Make sure your mouse polling rate is at 1000Hz so every click registers accurately. Use our <Link href="/mouse-polling-rate-checker" style={{ color: '#1D9E75' }}>mouse polling rate checker</Link> to verify your setup before serious practice sessions.</p>
+      </div>
+      <div className="content-section">
+        <h2>30 Second Test vs Other CPS Formats</h2>
+        <p>The thirty second test is a useful bridge between shorter and longer formats. Your <Link href="/cps-test/1" style={{ color: '#1D9E75' }}>1 second score</Link> tells you your peak burst speed. Your <Link href="/cps-test/10" style={{ color: '#1D9E75' }}>10 second score</Link> tells you your short-form sustained speed. Your 30 second score tells you your medium-form stamina. Your <Link href="/cps-test/60" style={{ color: '#1D9E75' }}>60 second score</Link> tells you your long-form performance.</p>
+        <p>A healthy clicking profile shows a gradual decline across these formats. Players who score 11 CPS at 10 seconds but only 7 CPS at 30 seconds need stamina work more than speed work. The thirty second test is the ideal training format for closing that gap.</p>
+      </div>
+      <div className="content-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>What is a good 30 second CPS score?</h3>
+        <p>For casual gaming, 6 to 8 CPS over thirty seconds is perfectly functional. For competitive Minecraft PvP, aim for 9 to 11 CPS. Above 12 CPS sustained for thirty seconds is advanced and typically requires jitter or butterfly clicking technique.</p>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Why does my CPS drop so much after 10 seconds?</h3>
+        <p>Finger muscles tire quickly with rapid clicking. Short daily practice sessions build stamina gradually. Try the <Link href="/cps-test/20" style={{ color: '#1D9E75' }}>20 second test</Link> as a stepping stone between your 10 second and thirty second training.</p>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Should I use butterfly clicking for the 30 second test?</h3>
+        <p><Link href="/cps-test/butterfly" style={{ color: '#1D9E75' }}>Butterfly clicking</Link> can be sustained for thirty seconds by most practiced players and produces higher CPS than jitter clicking. However it requires more coordination. Focus on jitter technique first as it is easier to learn.</p>
+        <h3 style={{ fontSize: 16, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>Is the 30 second test used in competitive gaming?</h3>
+        <p>Not as a standard benchmark, but most extended PvP fights in Minecraft and Roblox Bedwars last between 15 and 45 seconds, making the thirty second test the most directly applicable format to actual competitive play.</p>
+      </div>
+    </>
+  )
+}
 function StandardContent({ seconds, type }: { seconds: number; type: string }) {
   return (
     <>
@@ -631,6 +679,7 @@ export default async function CpsTestPage({ params }: { params: Promise<Params> 
     if (slug === '10') return <TenSecondContent />
     if (slug === '15') return <FifteenSecondContent />
     if (slug === '20') return <TwentySecondContent />
+    if (slug === '30') return <ThirtySecondContent />
     if (slug === '60') return <SixtySecondContent />
     if (slug === '100') return <HundredSecondContent />
     return <StandardContent seconds={config!.seconds} type={config!.type} />
